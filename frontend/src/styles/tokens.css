@@ -1,0 +1,37 @@
+:root {
+  /* Backgrounds (darkest to lightest) */
+  --bg-0: #0B1020;   /* page background */
+  --bg-1: #0E1428;   /* sidebar, top bar */
+  --bg-2: #121A2F;   /* cards */
+  --bg-3: #18223D;   /* inner panels, inputs */
+  --bg-4: #1F2B4A;   /* hover states, tracks */
+
+  /* Brand & Accents (Midnight Indigo) */
+  --brand:     #6C8CFF;  /* periwinkle */
+  --brand-200: #C7D2FE;
+  --brand-600: #4F6FE8;
+  --brand-800: #2F3F8F;
+  --brand-900: #1B2559;
+  --accent:    #22D3EE;  /* cyan */
+
+  /* Text */
+  --text:       #E6EAF5;
+  --text-muted: #94A0BF;
+  --text-dim:   #66718F;
+
+  /* Borders and glow */
+  --border:        rgba(148, 163, 255, 0.14);
+  --border-strong: rgba(108, 140, 255, 0.45);
+  --glow-sm: 0 0 0 1px rgba(108, 140, 255, 0.25), 0 4px 16px rgba(108, 140, 255, 0.12);
+  --glow-md: 0 0 0 1px rgba(108, 140, 255, 0.40), 0 6px 24px rgba(108, 140, 255, 0.20);
+  --glow-accent: 0 0 0 1px rgba(34, 211, 238, 0.35), 0 4px 18px rgba(34, 211, 238, 0.18);
+  --shadow-card: 0 1px 0 rgba(255, 255, 255, 0.03) inset, 0 8px 24px rgba(3, 6, 18, 0.35);
+
+  /* Semantic colors */
+  --danger:   #F87171;  /* changed code, missed, failed */
+  --warn:     #FBBF24;  /* affected code, dependency baseline */
+  --teal:     #2DD4BF;  /* secondary series */
+  --lavender: #A5B4FC;  /* tertiary series / greedy */
+  --slate:    #94A3B8;  /* unaffected, random baseline */
+  --success:  #34D399;  /* emerald - optimal, caught, connected, complete ONLY */
+}

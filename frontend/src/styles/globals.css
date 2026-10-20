@@ -1,0 +1,102 @@
+@import './tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-0);
+    color: var(--text);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: rgba(108, 140, 255, 0.35);
+    color: #E6EAF5;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: var(--text);
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  /* Accessible periwinkle focus ring */
+  :focus-visible {
+    outline: 2px solid var(--brand);
+    outline-offset: 2px;
+  }
+}
+
+/* Midnight Indigo atmosphere background: Deep navy + soft dual blooms */
+.bg-midnight-indigo {
+  background-color: var(--bg-0);
+  background-image:
+    radial-gradient(50% 40% at 15% 0%, rgba(108, 140, 255, 0.16), transparent 70%),
+    radial-gradient(45% 35% at 90% 100%, rgba(34, 211, 238, 0.09), transparent 70%),
+    radial-gradient(rgba(148, 163, 255, 0.05) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 24px 24px;
+  background-position: center top, center bottom, center center;
+}
+
+/* Custom modern scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-4);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(108, 140, 255, 0.5);
+}
+
+/* Gradient text: Periwinkle to Cyan */
+.text-gradient {
+  background: linear-gradient(135deg, #F1F5FF 0%, #A5B4FC 45%, #22D3EE 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Soft glow pulse loop (calm developer tool feel) */
+@keyframes glow-pulse {
+  0%, 100% {
+    box-shadow: var(--glow-sm);
+  }
+  50% {
+    box-shadow: var(--glow-md);
+  }
+}
+
+.animate-glow-pulse {
+  animation: glow-pulse 2.4s infinite ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-glow-pulse {
+    animation: none;
+    box-shadow: var(--glow-sm);
+  }
+}

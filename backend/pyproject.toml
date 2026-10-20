@@ -1,0 +1,36 @@
+[project]
+name = "smarttest"
+version = "0.1.0"
+description = "Smart Test Selection Engine - DAA Project"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "pydantic>=2.9.0",
+    "pytest>=8.3.0",
+    "coverage>=7.6.0",
+    "scikit-learn>=1.5.0",
+    "joblib>=1.4.0",
+    "numpy>=2.0.0",
+    "pandas>=2.2.0",
+    "matplotlib>=3.9.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "networkx>=3.3",
+    "httpx>=0.28.0",
+    "ruff>=0.8.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "sample_project/tests"]
+python_files = ["test_*.py"]
+pythonpath = [".", "sample_project", "src"]
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

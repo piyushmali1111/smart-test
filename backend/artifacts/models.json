@@ -1,0 +1,82 @@
+{
+  "models": [
+    {
+      "name": "Random Forest",
+      "accuracy": 0.673,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "rocAuc": 0.641,
+      "prAuc": 0.479
+    },
+    {
+      "name": "HistGradientBoosting",
+      "accuracy": 0.66,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "rocAuc": 0.635,
+      "prAuc": 0.469
+    },
+    {
+      "name": "Logistic Regression",
+      "accuracy": 0.612,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "rocAuc": 0.59,
+      "prAuc": 0.426
+    }
+  ],
+  "selectedModel": "Logistic Regression",
+  "featureImportance": [
+    {
+      "feature": "Affected Code Covered",
+      "importance": 0.345
+    },
+    {
+      "feature": "Historical Failure Rate",
+      "importance": 0.217
+    },
+    {
+      "feature": "Direct Coverage",
+      "importance": 0.118
+    },
+    {
+      "feature": "Execution Duration",
+      "importance": 0.068
+    },
+    {
+      "feature": "Dependency Distance",
+      "importance": 0.064
+    },
+    {
+      "feature": "Affected Fraction Covered",
+      "importance": 0.062
+    },
+    {
+      "feature": "Test Scope Breadth",
+      "importance": 0.061
+    },
+    {
+      "feature": "Recent Failures (Last 5)",
+      "importance": 0.044
+    },
+    {
+      "feature": "Module Code Churn",
+      "importance": 0.02
+    },
+    {
+      "feature": "Log Execution Duration",
+      "importance": 0.0
+    },
+    {
+      "feature": "Change Blast Radius",
+      "importance": 0.0
+    },
+    {
+      "feature": "Topological Call Depth",
+      "importance": 0.0
+    }
+  ]
+}

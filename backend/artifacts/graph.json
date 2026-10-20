@@ -1,0 +1,743 @@
+{
+  "nodes": [
+    {
+      "id": "auth.hash_password",
+      "label": "hash_password",
+      "file": "shop/auth.py",
+      "kind": "function",
+      "startLine": 8,
+      "endLine": 12,
+      "topoLevel": 1
+    },
+    {
+      "id": "auth.verify_token",
+      "label": "verify_token",
+      "file": "shop/auth.py",
+      "kind": "function",
+      "startLine": 15,
+      "endLine": 25,
+      "topoLevel": 0
+    },
+    {
+      "id": "auth.check_permission",
+      "label": "check_permission",
+      "file": "shop/auth.py",
+      "kind": "function",
+      "startLine": 28,
+      "endLine": 39,
+      "topoLevel": 0
+    },
+    {
+      "id": "cart.add_item",
+      "label": "add_item",
+      "file": "shop/cart.py",
+      "kind": "function",
+      "startLine": 7,
+      "endLine": 13,
+      "topoLevel": 0
+    },
+    {
+      "id": "cart.remove_item",
+      "label": "remove_item",
+      "file": "shop/cart.py",
+      "kind": "function",
+      "startLine": 16,
+      "endLine": 21,
+      "topoLevel": 0
+    },
+    {
+      "id": "cart.apply_coupon",
+      "label": "apply_coupon",
+      "file": "shop/cart.py",
+      "kind": "function",
+      "startLine": 24,
+      "endLine": 31,
+      "topoLevel": 1
+    },
+    {
+      "id": "cart.calculate_subtotal",
+      "label": "calculate_subtotal",
+      "file": "shop/cart.py",
+      "kind": "function",
+      "startLine": 34,
+      "endLine": 41,
+      "topoLevel": 1
+    },
+    {
+      "id": "cart.calculate_total",
+      "label": "calculate_total",
+      "file": "shop/cart.py",
+      "kind": "function",
+      "startLine": 44,
+      "endLine": 65,
+      "topoLevel": 3
+    },
+    {
+      "id": "discount.validate_coupon",
+      "label": "validate_coupon",
+      "file": "shop/discount.py",
+      "kind": "function",
+      "startLine": 13,
+      "endLine": 27,
+      "topoLevel": 0
+    },
+    {
+      "id": "discount.calculate_bundle_discount",
+      "label": "calculate_bundle_discount",
+      "file": "shop/discount.py",
+      "kind": "function",
+      "startLine": 30,
+      "endLine": 38,
+      "topoLevel": 1
+    },
+    {
+      "id": "discount.apply_seasonal_discount",
+      "label": "apply_seasonal_discount",
+      "file": "shop/discount.py",
+      "kind": "function",
+      "startLine": 41,
+      "endLine": 49,
+      "topoLevel": 1
+    },
+    {
+      "id": "discount.compute_final_discount",
+      "label": "compute_final_discount",
+      "file": "shop/discount.py",
+      "kind": "function",
+      "startLine": 52,
+      "endLine": 73,
+      "topoLevel": 2
+    },
+    {
+      "id": "inventory.check_stock",
+      "label": "check_stock",
+      "file": "shop/inventory.py",
+      "kind": "function",
+      "startLine": 22,
+      "endLine": 27,
+      "topoLevel": 0
+    },
+    {
+      "id": "inventory.reserve_stock",
+      "label": "reserve_stock",
+      "file": "shop/inventory.py",
+      "kind": "function",
+      "startLine": 30,
+      "endLine": 35,
+      "topoLevel": 1
+    },
+    {
+      "id": "inventory.release_stock",
+      "label": "release_stock",
+      "file": "shop/inventory.py",
+      "kind": "function",
+      "startLine": 38,
+      "endLine": 44,
+      "topoLevel": 0
+    },
+    {
+      "id": "inventory.reorder_threshold_reached",
+      "label": "reorder_threshold_reached",
+      "file": "shop/inventory.py",
+      "kind": "function",
+      "startLine": 47,
+      "endLine": 51,
+      "topoLevel": 0
+    },
+    {
+      "id": "notification.format_order_email",
+      "label": "format_order_email",
+      "file": "shop/notification.py",
+      "kind": "function",
+      "startLine": 9,
+      "endLine": 21,
+      "topoLevel": 2
+    },
+    {
+      "id": "notification.send_email",
+      "label": "send_email",
+      "file": "shop/notification.py",
+      "kind": "function",
+      "startLine": 24,
+      "endLine": 29,
+      "topoLevel": 1
+    },
+    {
+      "id": "notification.send_sms",
+      "label": "send_sms",
+      "file": "shop/notification.py",
+      "kind": "function",
+      "startLine": 32,
+      "endLine": 37,
+      "topoLevel": 1
+    },
+    {
+      "id": "notification.log_audit_event",
+      "label": "log_audit_event",
+      "file": "shop/notification.py",
+      "kind": "function",
+      "startLine": 40,
+      "endLine": 45,
+      "topoLevel": 0
+    },
+    {
+      "id": "order.check_limits",
+      "label": "check_limits",
+      "file": "shop/order.py",
+      "kind": "function",
+      "startLine": 9,
+      "endLine": 20,
+      "topoLevel": 1
+    },
+    {
+      "id": "order.calculate_order_totals",
+      "label": "calculate_order_totals",
+      "file": "shop/order.py",
+      "kind": "function",
+      "startLine": 23,
+      "endLine": 42,
+      "topoLevel": 4
+    },
+    {
+      "id": "order.validate_and_reserve",
+      "label": "validate_and_reserve",
+      "file": "shop/order.py",
+      "kind": "function",
+      "startLine": 45,
+      "endLine": 53,
+      "topoLevel": 2
+    },
+    {
+      "id": "order.place_order",
+      "label": "place_order",
+      "file": "shop/order.py",
+      "kind": "function",
+      "startLine": 56,
+      "endLine": 126,
+      "topoLevel": 5
+    },
+    {
+      "id": "order.cancel_order",
+      "label": "cancel_order",
+      "file": "shop/order.py",
+      "kind": "function",
+      "startLine": 129,
+      "endLine": 150,
+      "topoLevel": 2
+    },
+    {
+      "id": "payment.validate_card",
+      "label": "validate_card",
+      "file": "shop/payment.py",
+      "kind": "function",
+      "startLine": 8,
+      "endLine": 19,
+      "topoLevel": 0
+    },
+    {
+      "id": "payment.check_fraud_risk",
+      "label": "check_fraud_risk",
+      "file": "shop/payment.py",
+      "kind": "function",
+      "startLine": 22,
+      "endLine": 33,
+      "topoLevel": 0
+    },
+    {
+      "id": "payment.process_charge",
+      "label": "process_charge",
+      "file": "shop/payment.py",
+      "kind": "function",
+      "startLine": 36,
+      "endLine": 56,
+      "topoLevel": 1
+    },
+    {
+      "id": "payment.issue_refund",
+      "label": "issue_refund",
+      "file": "shop/payment.py",
+      "kind": "function",
+      "startLine": 59,
+      "endLine": 71,
+      "topoLevel": 1
+    },
+    {
+      "id": "pricing.get_base_price",
+      "label": "get_base_price",
+      "file": "shop/pricing.py",
+      "kind": "function",
+      "startLine": 15,
+      "endLine": 19,
+      "topoLevel": 0
+    },
+    {
+      "id": "pricing.calculate_bulk_price",
+      "label": "calculate_bulk_price",
+      "file": "shop/pricing.py",
+      "kind": "function",
+      "startLine": 22,
+      "endLine": 34,
+      "topoLevel": 1
+    },
+    {
+      "id": "pricing.apply_markup",
+      "label": "apply_markup",
+      "file": "shop/pricing.py",
+      "kind": "function",
+      "startLine": 37,
+      "endLine": 44,
+      "topoLevel": 1
+    },
+    {
+      "id": "report.generate_sales_summary",
+      "label": "generate_sales_summary",
+      "file": "shop/report.py",
+      "kind": "function",
+      "startLine": 7,
+      "endLine": 34,
+      "topoLevel": 1
+    },
+    {
+      "id": "report.calculate_margin_report",
+      "label": "calculate_margin_report",
+      "file": "shop/report.py",
+      "kind": "function",
+      "startLine": 37,
+      "endLine": 49,
+      "topoLevel": 2
+    },
+    {
+      "id": "report.export_tax_ledger",
+      "label": "export_tax_ledger",
+      "file": "shop/report.py",
+      "kind": "function",
+      "startLine": 52,
+      "endLine": 68,
+      "topoLevel": 1
+    },
+    {
+      "id": "shipping.calculate_shipping_weight",
+      "label": "calculate_shipping_weight",
+      "file": "shop/shipping.py",
+      "kind": "function",
+      "startLine": 15,
+      "endLine": 23,
+      "topoLevel": 1
+    },
+    {
+      "id": "shipping.get_shipping_tier",
+      "label": "get_shipping_tier",
+      "file": "shop/shipping.py",
+      "kind": "function",
+      "startLine": 26,
+      "endLine": 34,
+      "topoLevel": 0
+    },
+    {
+      "id": "shipping.estimate_delivery_days",
+      "label": "estimate_delivery_days",
+      "file": "shop/shipping.py",
+      "kind": "function",
+      "startLine": 37,
+      "endLine": 42,
+      "topoLevel": 0
+    },
+    {
+      "id": "shipping.calculate_shipping_cost",
+      "label": "calculate_shipping_cost",
+      "file": "shop/shipping.py",
+      "kind": "function",
+      "startLine": 45,
+      "endLine": 63,
+      "topoLevel": 2
+    },
+    {
+      "id": "tax.get_tax_rate",
+      "label": "get_tax_rate",
+      "file": "shop/tax.py",
+      "kind": "function",
+      "startLine": 14,
+      "endLine": 17,
+      "topoLevel": 0
+    },
+    {
+      "id": "tax.calculate_sales_tax",
+      "label": "calculate_sales_tax",
+      "file": "shop/tax.py",
+      "kind": "function",
+      "startLine": 20,
+      "endLine": 26,
+      "topoLevel": 1
+    },
+    {
+      "id": "tax.apply_tax_exemptions",
+      "label": "apply_tax_exemptions",
+      "file": "shop/tax.py",
+      "kind": "function",
+      "startLine": 29,
+      "endLine": 33,
+      "topoLevel": 1
+    },
+    {
+      "id": "user.get_user_profile",
+      "label": "get_user_profile",
+      "file": "shop/user.py",
+      "kind": "function",
+      "startLine": 13,
+      "endLine": 32,
+      "topoLevel": 1
+    },
+    {
+      "id": "user.calculate_loyalty_tier",
+      "label": "calculate_loyalty_tier",
+      "file": "shop/user.py",
+      "kind": "function",
+      "startLine": 35,
+      "endLine": 43,
+      "topoLevel": 0
+    },
+    {
+      "id": "user.can_apply_vip_discount",
+      "label": "can_apply_vip_discount",
+      "file": "shop/user.py",
+      "kind": "function",
+      "startLine": 46,
+      "endLine": 52,
+      "topoLevel": 2
+    },
+    {
+      "id": "utils.round_currency",
+      "label": "round_currency",
+      "file": "shop/utils.py",
+      "kind": "function",
+      "startLine": 7,
+      "endLine": 9,
+      "topoLevel": 0
+    },
+    {
+      "id": "utils.clamp",
+      "label": "clamp",
+      "file": "shop/utils.py",
+      "kind": "function",
+      "startLine": 12,
+      "endLine": 18,
+      "topoLevel": 0
+    },
+    {
+      "id": "utils.hash_string",
+      "label": "hash_string",
+      "file": "shop/utils.py",
+      "kind": "function",
+      "startLine": 21,
+      "endLine": 23,
+      "topoLevel": 0
+    },
+    {
+      "id": "utils.format_currency",
+      "label": "format_currency",
+      "file": "shop/utils.py",
+      "kind": "function",
+      "startLine": 26,
+      "endLine": 33,
+      "topoLevel": 1
+    },
+    {
+      "id": "validators.validate_email",
+      "label": "validate_email",
+      "file": "shop/validators.py",
+      "kind": "function",
+      "startLine": 8,
+      "endLine": 20,
+      "topoLevel": 0
+    },
+    {
+      "id": "validators.validate_sku",
+      "label": "validate_sku",
+      "file": "shop/validators.py",
+      "kind": "function",
+      "startLine": 23,
+      "endLine": 27,
+      "topoLevel": 0
+    },
+    {
+      "id": "validators.validate_quantity",
+      "label": "validate_quantity",
+      "file": "shop/validators.py",
+      "kind": "function",
+      "startLine": 30,
+      "endLine": 32,
+      "topoLevel": 0
+    },
+    {
+      "id": "validators.validate_order",
+      "label": "validate_order",
+      "file": "shop/validators.py",
+      "kind": "function",
+      "startLine": 35,
+      "endLine": 53,
+      "topoLevel": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "auth.hash_password",
+      "target": "utils.hash_string"
+    },
+    {
+      "source": "cart.apply_coupon",
+      "target": "discount.validate_coupon"
+    },
+    {
+      "source": "cart.calculate_subtotal",
+      "target": "pricing.get_base_price"
+    },
+    {
+      "source": "cart.calculate_subtotal",
+      "target": "utils.round_currency"
+    },
+    {
+      "source": "cart.calculate_total",
+      "target": "cart.calculate_subtotal"
+    },
+    {
+      "source": "cart.calculate_total",
+      "target": "discount.compute_final_discount"
+    },
+    {
+      "source": "cart.calculate_total",
+      "target": "tax.calculate_sales_tax"
+    },
+    {
+      "source": "cart.calculate_total",
+      "target": "utils.round_currency"
+    },
+    {
+      "source": "discount.calculate_bundle_discount",
+      "target": "utils.round_currency"
+    },
+    {
+      "source": "discount.apply_seasonal_discount",
+      "target": "utils.round_currency"
+    },
+    {
+      "source": "discount.compute_final_discount",
+      "target": "discount.apply_seasonal_discount"
+    },
+    {
+      "source": "discount.compute_final_discount",
+      "target": "discount.calculate_bundle_discount"
+    },
+    {
+      "source": "discount.compute_final_discount",
+      "target": "discount.validate_coupon"
+    },
+    {
+      "source": "discount.compute_final_discount",
+      "target": "utils.clamp"
+    },
+    {
+      "source": "discount.compute_final_discount",
+      "target": "utils.round_currency"
+    },
+    {
+      "source": "inventory.reserve_stock",
+      "target": "inventory.check_stock"
+    },
+    {
+      "source": "notification.format_order_email",
+      "target": "utils.format_currency"
+    },
+    {
+      "source": "notification.send_email",
+      "target": "notification.log_audit_event"
+    },
+    {
+      "source": "notification.send_sms",
+      "target": "notification.log_audit_event"
+    },
+    {
+      "source": "order.check_limits",
+      "target": "validators.validate_order"
+    },
+    {
+      "source": "order.calculate_order_totals",
+      "target": "cart.calculate_total"
+    },
+    {
+      "source": "order.calculate_order_totals",
+      "target": "shipping.calculate_shipping_cost"
+    },
+    {
+      "source": "order.calculate_order_totals",
+      "target": "utils.round_currency"
+    },
+    {
+      "source": "order.validate_and_reserve",
+      "target": "inventory.check_stock"
+    },
+    {
+      "source": "order.validate_and_reserve",
+      "target": "inventory.reserve_stock"
+    },
+    {
+      "source": "order.place_order",
+      "target": "inventory.release_stock"
+    },
+    {
+      "source": "order.place_order",
+      "target": "notification.format_order_email"
+    },
+    {
+      "source": "order.place_order",
+      "target": "notification.log_audit_event"
+    },
+    {
+      "source": "order.place_order",
+      "target": "notification.send_email"
+    },
+    {
+      "source": "order.place_order",
+      "target": "order.calculate_order_totals"
+    },
+    {
+      "source": "order.place_order",
+      "target": "order.check_limits"
+    },
+    {
+      "source": "order.place_order",
+      "target": "order.validate_and_reserve"
+    },
+    {
+      "source": "order.place_order",
+      "target": "payment.check_fraud_risk"
+    },
+    {
+      "source": "order.place_order",
+      "target": "payment.process_charge"
+    },
+    {
+      "source": "order.place_order",
+      "target": "user.get_user_profile"
+    },
+    {
+      "source": "order.place_order",
+      "target": "utils.hash_string"
+    },
+    {
+      "source": "order.cancel_order",
+      "target": "inventory.release_stock"
+    },
+    {
+      "source": "order.cancel_order",
+      "target": "notification.log_audit_event"
+    },
+    {
+      "source": "order.cancel_order",
+      "target": "payment.issue_refund"
+    },
+    {
+      "source": "payment.process_charge",
+      "target": "payment.validate_card"
+    },
+    {
+      "source": "payment.process_charge",
+      "target": "utils.hash_string"
+    },
+    {
+      "source": "payment.process_charge",
+      "target": "utils.round_currency"
+    },
+    {
+      "source": "payment.issue_refund",
+      "target": "utils.hash_string"
+    },
+    {
+      "source": "payment.issue_refund",
+      "target": "utils.round_currency"
+    },
+    {
+      "source": "pricing.calculate_bulk_price",
+      "target": "pricing.get_base_price"
+    },
+    {
+      "source": "pricing.calculate_bulk_price",
+      "target": "utils.round_currency"
+    },
+    {
+      "source": "pricing.apply_markup",
+      "target": "utils.round_currency"
+    },
+    {
+      "source": "report.generate_sales_summary",
+      "target": "utils.round_currency"
+    },
+    {
+      "source": "report.calculate_margin_report",
+      "target": "report.generate_sales_summary"
+    },
+    {
+      "source": "report.calculate_margin_report",
+      "target": "utils.round_currency"
+    },
+    {
+      "source": "report.export_tax_ledger",
+      "target": "tax.get_tax_rate"
+    },
+    {
+      "source": "report.export_tax_ledger",
+      "target": "utils.round_currency"
+    },
+    {
+      "source": "shipping.calculate_shipping_weight",
+      "target": "utils.round_currency"
+    },
+    {
+      "source": "shipping.calculate_shipping_cost",
+      "target": "shipping.calculate_shipping_weight"
+    },
+    {
+      "source": "shipping.calculate_shipping_cost",
+      "target": "shipping.get_shipping_tier"
+    },
+    {
+      "source": "shipping.calculate_shipping_cost",
+      "target": "utils.round_currency"
+    },
+    {
+      "source": "tax.calculate_sales_tax",
+      "target": "tax.get_tax_rate"
+    },
+    {
+      "source": "tax.calculate_sales_tax",
+      "target": "utils.round_currency"
+    },
+    {
+      "source": "tax.apply_tax_exemptions",
+      "target": "utils.round_currency"
+    },
+    {
+      "source": "user.get_user_profile",
+      "target": "user.calculate_loyalty_tier"
+    },
+    {
+      "source": "user.can_apply_vip_discount",
+      "target": "user.get_user_profile"
+    },
+    {
+      "source": "utils.format_currency",
+      "target": "utils.round_currency"
+    },
+    {
+      "source": "validators.validate_order",
+      "target": "order.check_limits"
+    },
+    {
+      "source": "validators.validate_order",
+      "target": "validators.validate_quantity"
+    },
+    {
+      "source": "validators.validate_order",
+      "target": "validators.validate_sku"
+    }
+  ]
+}

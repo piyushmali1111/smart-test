@@ -1,0 +1,176 @@
+{
+  "headline": {
+    "testReductionPct": 94.7,
+    "timeSavedPct": 94.6,
+    "bugDetectionPct": 97.1
+  },
+  "detectionVsBudget": [
+    {
+      "budgetSec": 5,
+      "ours": 94.3,
+      "riskBased": 94.3,
+      "dependencyOnly": 94.3,
+      "random": 26.9,
+      "runAll": 100.0
+    },
+    {
+      "budgetSec": 10,
+      "ours": 94.3,
+      "riskBased": 94.3,
+      "dependencyOnly": 94.3,
+      "random": 32.9,
+      "runAll": 100.0
+    },
+    {
+      "budgetSec": 15,
+      "ours": 94.3,
+      "riskBased": 94.3,
+      "dependencyOnly": 94.3,
+      "random": 40.0,
+      "runAll": 100.0
+    },
+    {
+      "budgetSec": 20,
+      "ours": 91.4,
+      "riskBased": 95.7,
+      "dependencyOnly": 92.9,
+      "random": 43.4,
+      "runAll": 100.0
+    },
+    {
+      "budgetSec": 25,
+      "ours": 97.1,
+      "riskBased": 100.0,
+      "dependencyOnly": 100.0,
+      "random": 46.6,
+      "runAll": 100.0
+    },
+    {
+      "budgetSec": 30,
+      "ours": 97.1,
+      "riskBased": 100.0,
+      "dependencyOnly": 100.0,
+      "random": 46.3,
+      "runAll": 100.0
+    },
+    {
+      "budgetSec": 40,
+      "ours": 100.0,
+      "riskBased": 100.0,
+      "dependencyOnly": 100.0,
+      "random": 50.6,
+      "runAll": 100.0
+    },
+    {
+      "budgetSec": 50,
+      "ours": 98.6,
+      "riskBased": 100.0,
+      "dependencyOnly": 100.0,
+      "random": 53.9,
+      "runAll": 100.0
+    },
+    {
+      "budgetSec": 75,
+      "ours": 100.0,
+      "riskBased": 100.0,
+      "dependencyOnly": 100.0,
+      "random": 61.1,
+      "runAll": 100.0
+    },
+    {
+      "budgetSec": 100,
+      "ours": 100.0,
+      "riskBased": 100.0,
+      "dependencyOnly": 100.0,
+      "random": 66.7,
+      "runAll": 100.0
+    },
+    {
+      "budgetSec": 150,
+      "ours": 100.0,
+      "riskBased": 100.0,
+      "dependencyOnly": 100.0,
+      "random": 77.1,
+      "runAll": 100.0
+    },
+    {
+      "budgetSec": 200,
+      "ours": 100.0,
+      "riskBased": 100.0,
+      "dependencyOnly": 100.0,
+      "random": 85.1,
+      "runAll": 100.0
+    },
+    {
+      "budgetSec": 300,
+      "ours": 100.0,
+      "riskBased": 100.0,
+      "dependencyOnly": 100.0,
+      "random": 96.3,
+      "runAll": 100.0
+    }
+  ],
+  "strategies": [
+    {
+      "name": "Ours",
+      "testsRun": 7.2,
+      "timeSec": 20.1,
+      "bugsCaughtPct": 97.1
+    },
+    {
+      "name": "Risk-Based",
+      "testsRun": 8.0,
+      "timeSec": 19.8,
+      "bugsCaughtPct": 100.0
+    },
+    {
+      "name": "Dependency-Only",
+      "testsRun": 5.6,
+      "timeSec": 22.1,
+      "bugsCaughtPct": 100.0
+    },
+    {
+      "name": "Random",
+      "testsRun": 32.5,
+      "timeSec": 30.0,
+      "bugsCaughtPct": 44.3
+    },
+    {
+      "name": "Run All",
+      "testsRun": 136.0,
+      "timeSec": 369.6,
+      "bugsCaughtPct": 100.0
+    }
+  ],
+  "dataset": {
+    "mutants": 351,
+    "killedMutants": 244,
+    "mutationScore": 69.5,
+    "tests": 136,
+    "rows": 3278,
+    "mutationTypes": [
+      {
+        "type": "arithmetic",
+        "count": 30
+      },
+      {
+        "type": "boolean",
+        "count": 46
+      },
+      {
+        "type": "comparison",
+        "count": 59
+      },
+      {
+        "type": "constant",
+        "count": 115
+      },
+      {
+        "type": "statement",
+        "count": 101
+      }
+    ]
+  },
+  "referenceBudgetSec": 30,
+  "holdoutMutants": 70
+}

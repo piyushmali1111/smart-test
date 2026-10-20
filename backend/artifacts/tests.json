@@ -1,0 +1,1692 @@
+[
+  {
+    "id": "sample_project/tests/test_auth.py::test_check_permission_admin",
+    "name": "test_check_permission_admin",
+    "file": "sample_project/tests/test_auth.py",
+    "timeSec": 0.09,
+    "covers": [
+      "auth.check_permission"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_auth.py::test_check_permission_user",
+    "name": "test_check_permission_user",
+    "file": "sample_project/tests/test_auth.py",
+    "timeSec": 0.09,
+    "covers": [
+      "auth.check_permission"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_auth.py::test_hash_password_success",
+    "name": "test_hash_password_success",
+    "file": "sample_project/tests/test_auth.py",
+    "timeSec": 0.28,
+    "covers": [
+      "auth.hash_password",
+      "utils.hash_string"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_auth.py::test_hash_password_too_short",
+    "name": "test_hash_password_too_short",
+    "file": "sample_project/tests/test_auth.py",
+    "timeSec": 0.11,
+    "covers": [
+      "auth.hash_password"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_auth.py::test_verify_token_invalid",
+    "name": "test_verify_token_invalid",
+    "file": "sample_project/tests/test_auth.py",
+    "timeSec": 0.13,
+    "covers": [
+      "auth.verify_token"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_auth.py::test_verify_token_user",
+    "name": "test_verify_token_user",
+    "file": "sample_project/tests/test_auth.py",
+    "timeSec": 0.19,
+    "covers": [
+      "auth.verify_token"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_cart.py::test_add_item_existing",
+    "name": "test_add_item_existing",
+    "file": "sample_project/tests/test_cart.py",
+    "timeSec": 0.13,
+    "covers": [
+      "cart.add_item"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_cart.py::test_add_item_invalid_quantity",
+    "name": "test_add_item_invalid_quantity",
+    "file": "sample_project/tests/test_cart.py",
+    "timeSec": 0.09,
+    "covers": [
+      "cart.add_item"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_cart.py::test_add_item_new",
+    "name": "test_add_item_new",
+    "file": "sample_project/tests/test_cart.py",
+    "timeSec": 0.13,
+    "covers": [
+      "cart.add_item"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_cart.py::test_apply_coupon_invalid",
+    "name": "test_apply_coupon_invalid",
+    "file": "sample_project/tests/test_cart.py",
+    "timeSec": 0.11,
+    "covers": [
+      "cart.apply_coupon",
+      "discount.validate_coupon"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_cart.py::test_apply_coupon_valid",
+    "name": "test_apply_coupon_valid",
+    "file": "sample_project/tests/test_cart.py",
+    "timeSec": 0.16,
+    "covers": [
+      "cart.apply_coupon",
+      "discount.validate_coupon"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_cart.py::test_calculate_subtotal",
+    "name": "test_calculate_subtotal",
+    "file": "sample_project/tests/test_cart.py",
+    "timeSec": 0.19,
+    "covers": [
+      "cart.calculate_subtotal",
+      "pricing.get_base_price",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_cart.py::test_calculate_total_basic",
+    "name": "test_calculate_total_basic",
+    "file": "sample_project/tests/test_cart.py",
+    "timeSec": 0.26,
+    "covers": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "pricing.get_base_price",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "utils.clamp",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_cart.py::test_calculate_total_empty",
+    "name": "test_calculate_total_empty",
+    "file": "sample_project/tests/test_cart.py",
+    "timeSec": 0.11,
+    "covers": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.compute_final_discount",
+      "tax.calculate_sales_tax",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_cart.py::test_calculate_total_with_coupon",
+    "name": "test_calculate_total_with_coupon",
+    "file": "sample_project/tests/test_cart.py",
+    "timeSec": 0.26,
+    "covers": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "pricing.get_base_price",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "utils.clamp",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_cart.py::test_remove_item",
+    "name": "test_remove_item",
+    "file": "sample_project/tests/test_cart.py",
+    "timeSec": 0.11,
+    "covers": [
+      "cart.remove_item"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_discount.py::test_apply_seasonal_discount_holiday",
+    "name": "test_apply_seasonal_discount_holiday",
+    "file": "sample_project/tests/test_discount.py",
+    "timeSec": 0.11,
+    "covers": [
+      "discount.apply_seasonal_discount",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_discount.py::test_apply_seasonal_discount_other_months",
+    "name": "test_apply_seasonal_discount_other_months",
+    "file": "sample_project/tests/test_discount.py",
+    "timeSec": 0.09,
+    "covers": [
+      "discount.apply_seasonal_discount"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_discount.py::test_apply_seasonal_discount_summer",
+    "name": "test_apply_seasonal_discount_summer",
+    "file": "sample_project/tests/test_discount.py",
+    "timeSec": 0.11,
+    "covers": [
+      "discount.apply_seasonal_discount",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_discount.py::test_calculate_bundle_discount_tiers",
+    "name": "test_calculate_bundle_discount_tiers",
+    "file": "sample_project/tests/test_discount.py",
+    "timeSec": 0.16,
+    "covers": [
+      "discount.calculate_bundle_discount",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_discount.py::test_compute_final_discount_clamped_to_70_pct",
+    "name": "test_compute_final_discount_clamped_to_70_pct",
+    "file": "sample_project/tests/test_discount.py",
+    "timeSec": 0.26,
+    "covers": [
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "utils.clamp",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_discount.py::test_compute_final_discount_coupon_min_spend_not_met",
+    "name": "test_compute_final_discount_coupon_min_spend_not_met",
+    "file": "sample_project/tests/test_discount.py",
+    "timeSec": 0.16,
+    "covers": [
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "utils.clamp",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_discount.py::test_compute_final_discount_with_coupon",
+    "name": "test_compute_final_discount_with_coupon",
+    "file": "sample_project/tests/test_discount.py",
+    "timeSec": 0.21,
+    "covers": [
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "utils.clamp",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_discount.py::test_validate_coupon_invalid_or_empty",
+    "name": "test_validate_coupon_invalid_or_empty",
+    "file": "sample_project/tests/test_discount.py",
+    "timeSec": 0.09,
+    "covers": [
+      "discount.validate_coupon"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_discount.py::test_validate_coupon_valid_flat",
+    "name": "test_validate_coupon_valid_flat",
+    "file": "sample_project/tests/test_discount.py",
+    "timeSec": 0.13,
+    "covers": [
+      "discount.validate_coupon"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_discount.py::test_validate_coupon_valid_pct",
+    "name": "test_validate_coupon_valid_pct",
+    "file": "sample_project/tests/test_discount.py",
+    "timeSec": 0.13,
+    "covers": [
+      "discount.validate_coupon"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+    "name": "test_e2e_checkout_with_vip_discount",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "timeSec": 25.01,
+    "covers": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "inventory.check_stock",
+      "inventory.reserve_stock",
+      "notification.format_order_email",
+      "notification.log_audit_event",
+      "notification.send_email",
+      "order.calculate_order_totals",
+      "order.check_limits",
+      "order.place_order",
+      "order.validate_and_reserve",
+      "payment.check_fraud_risk",
+      "payment.process_charge",
+      "payment.validate_card",
+      "pricing.get_base_price",
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "user.calculate_loyalty_tier",
+      "user.get_user_profile",
+      "utils.clamp",
+      "utils.format_currency",
+      "utils.hash_string",
+      "utils.round_currency",
+      "validators.validate_order",
+      "validators.validate_quantity",
+      "validators.validate_sku"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+    "name": "test_e2e_complete_successful_checkout_flow",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "timeSec": 22.01,
+    "covers": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "inventory.check_stock",
+      "inventory.reserve_stock",
+      "notification.format_order_email",
+      "notification.log_audit_event",
+      "notification.send_email",
+      "order.calculate_order_totals",
+      "order.check_limits",
+      "order.place_order",
+      "order.validate_and_reserve",
+      "payment.check_fraud_risk",
+      "payment.process_charge",
+      "payment.validate_card",
+      "pricing.get_base_price",
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "user.calculate_loyalty_tier",
+      "user.get_user_profile",
+      "utils.clamp",
+      "utils.format_currency",
+      "utils.hash_string",
+      "utils.round_currency",
+      "validators.validate_order",
+      "validators.validate_quantity",
+      "validators.validate_sku"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_empty_cart_error",
+    "name": "test_e2e_empty_cart_error",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "timeSec": 15.01,
+    "covers": [
+      "order.place_order"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+    "name": "test_e2e_express_shipping_cost_impact",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "timeSec": 28.01,
+    "covers": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "inventory.check_stock",
+      "inventory.reserve_stock",
+      "notification.format_order_email",
+      "notification.log_audit_event",
+      "notification.send_email",
+      "order.calculate_order_totals",
+      "order.check_limits",
+      "order.place_order",
+      "order.validate_and_reserve",
+      "payment.check_fraud_risk",
+      "payment.process_charge",
+      "payment.validate_card",
+      "pricing.get_base_price",
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "user.calculate_loyalty_tier",
+      "user.get_user_profile",
+      "utils.clamp",
+      "utils.format_currency",
+      "utils.hash_string",
+      "utils.round_currency",
+      "validators.validate_order",
+      "validators.validate_quantity",
+      "validators.validate_sku"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+    "name": "test_e2e_fraud_detection_rejection",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "timeSec": 16.01,
+    "covers": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "order.calculate_order_totals",
+      "order.check_limits",
+      "order.place_order",
+      "payment.check_fraud_risk",
+      "pricing.get_base_price",
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "user.get_user_profile",
+      "utils.clamp",
+      "utils.round_currency",
+      "validators.validate_order",
+      "validators.validate_quantity",
+      "validators.validate_sku"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+    "name": "test_e2e_insufficient_stock_rollback",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "timeSec": 18.01,
+    "covers": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "inventory.check_stock",
+      "order.calculate_order_totals",
+      "order.check_limits",
+      "order.place_order",
+      "order.validate_and_reserve",
+      "payment.check_fraud_risk",
+      "pricing.get_base_price",
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "user.calculate_loyalty_tier",
+      "user.get_user_profile",
+      "utils.clamp",
+      "utils.round_currency",
+      "validators.validate_order",
+      "validators.validate_quantity",
+      "validators.validate_sku"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+    "name": "test_e2e_international_order_checkout",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "timeSec": 35.01,
+    "covers": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "inventory.check_stock",
+      "inventory.reserve_stock",
+      "notification.format_order_email",
+      "notification.log_audit_event",
+      "notification.send_email",
+      "order.calculate_order_totals",
+      "order.check_limits",
+      "order.place_order",
+      "order.validate_and_reserve",
+      "payment.check_fraud_risk",
+      "payment.process_charge",
+      "payment.validate_card",
+      "pricing.get_base_price",
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "user.calculate_loyalty_tier",
+      "user.get_user_profile",
+      "utils.clamp",
+      "utils.format_currency",
+      "utils.hash_string",
+      "utils.round_currency",
+      "validators.validate_order",
+      "validators.validate_quantity",
+      "validators.validate_sku"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+    "name": "test_e2e_invalid_payment_card_rejection",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "timeSec": 17.01,
+    "covers": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "inventory.check_stock",
+      "inventory.release_stock",
+      "inventory.reserve_stock",
+      "order.calculate_order_totals",
+      "order.check_limits",
+      "order.place_order",
+      "order.validate_and_reserve",
+      "payment.check_fraud_risk",
+      "payment.process_charge",
+      "payment.validate_card",
+      "pricing.get_base_price",
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "user.calculate_loyalty_tier",
+      "user.get_user_profile",
+      "utils.clamp",
+      "utils.round_currency",
+      "validators.validate_order",
+      "validators.validate_quantity",
+      "validators.validate_sku"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+    "name": "test_e2e_order_cancellation_flow",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "timeSec": 20.01,
+    "covers": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "inventory.check_stock",
+      "inventory.release_stock",
+      "inventory.reserve_stock",
+      "notification.format_order_email",
+      "notification.log_audit_event",
+      "notification.send_email",
+      "order.calculate_order_totals",
+      "order.cancel_order",
+      "order.check_limits",
+      "order.place_order",
+      "order.validate_and_reserve",
+      "payment.check_fraud_risk",
+      "payment.issue_refund",
+      "payment.process_charge",
+      "payment.validate_card",
+      "pricing.get_base_price",
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "user.calculate_loyalty_tier",
+      "user.get_user_profile",
+      "utils.clamp",
+      "utils.format_currency",
+      "utils.hash_string",
+      "utils.round_currency",
+      "validators.validate_order",
+      "validators.validate_quantity",
+      "validators.validate_sku"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_profit_margin_reporting",
+    "name": "test_e2e_profit_margin_reporting",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "timeSec": 26.01,
+    "covers": [
+      "report.calculate_margin_report",
+      "report.generate_sales_summary",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_sales_report_aggregation",
+    "name": "test_e2e_sales_report_aggregation",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "timeSec": 24.01,
+    "covers": [
+      "report.generate_sales_summary",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_tax_ledger_reporting",
+    "name": "test_e2e_tax_ledger_reporting",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "timeSec": 23.01,
+    "covers": [
+      "report.export_tax_ledger",
+      "tax.get_tax_rate",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_cart_checkout.py::test_cart_checkout_with_tiered_discounts_and_tax",
+    "name": "test_cart_checkout_with_tiered_discounts_and_tax",
+    "file": "sample_project/tests/test_integration_cart_checkout.py",
+    "timeSec": 3.11,
+    "covers": [
+      "cart.add_item",
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "pricing.get_base_price",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "utils.clamp",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_cart_checkout.py::test_cart_coupon_application_and_total",
+    "name": "test_cart_coupon_application_and_total",
+    "file": "sample_project/tests/test_integration_cart_checkout.py",
+    "timeSec": 2.81,
+    "covers": [
+      "cart.add_item",
+      "cart.apply_coupon",
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "pricing.get_base_price",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "utils.clamp",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_cart_checkout.py::test_cart_grand_total_incorporating_shipping",
+    "name": "test_cart_grand_total_incorporating_shipping",
+    "file": "sample_project/tests/test_integration_cart_checkout.py",
+    "timeSec": 3.81,
+    "covers": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "pricing.get_base_price",
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "utils.clamp",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_cart_checkout.py::test_cart_item_addition_and_subtotal_consistency",
+    "name": "test_cart_item_addition_and_subtotal_consistency",
+    "file": "sample_project/tests/test_integration_cart_checkout.py",
+    "timeSec": 2.21,
+    "covers": [
+      "cart.add_item",
+      "cart.calculate_subtotal",
+      "pricing.get_base_price",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_cart_checkout.py::test_cart_item_update_edge_cases",
+    "name": "test_cart_item_update_edge_cases",
+    "file": "sample_project/tests/test_integration_cart_checkout.py",
+    "timeSec": 2.51,
+    "covers": [
+      "cart.add_item",
+      "cart.calculate_subtotal",
+      "pricing.get_base_price",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_cart_checkout.py::test_cart_removal_and_recalculation",
+    "name": "test_cart_removal_and_recalculation",
+    "file": "sample_project/tests/test_integration_cart_checkout.py",
+    "timeSec": 2.51,
+    "covers": [
+      "cart.add_item",
+      "cart.calculate_subtotal",
+      "cart.remove_item",
+      "pricing.get_base_price",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_cart_checkout.py::test_cart_with_zero_tax_region_and_coupon",
+    "name": "test_cart_with_zero_tax_region_and_coupon",
+    "file": "sample_project/tests/test_integration_cart_checkout.py",
+    "timeSec": 3.41,
+    "covers": [
+      "cart.apply_coupon",
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "pricing.get_base_price",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "utils.clamp",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_cart_checkout.py::test_inventory_check_matches_cart_items",
+    "name": "test_inventory_check_matches_cart_items",
+    "file": "sample_project/tests/test_integration_cart_checkout.py",
+    "timeSec": 2.11,
+    "covers": [
+      "inventory.check_stock"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_cart_checkout.py::test_shipping_cost_estimation_for_multi_item_cart",
+    "name": "test_shipping_cost_estimation_for_multi_item_cart",
+    "file": "sample_project/tests/test_integration_cart_checkout.py",
+    "timeSec": 2.41,
+    "covers": [
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_cart_checkout.py::test_shipping_cost_express_air",
+    "name": "test_shipping_cost_express_air",
+    "file": "sample_project/tests/test_integration_cart_checkout.py",
+    "timeSec": 2.61,
+    "covers": [
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_order_lifecycle.py::test_audit_logging_integration",
+    "name": "test_audit_logging_integration",
+    "file": "sample_project/tests/test_integration_order_lifecycle.py",
+    "timeSec": 3.21,
+    "covers": [
+      "notification.log_audit_event"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_standard",
+    "name": "test_calculate_order_totals_standard",
+    "file": "sample_project/tests/test_integration_order_lifecycle.py",
+    "timeSec": 3.81,
+    "covers": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "order.calculate_order_totals",
+      "pricing.get_base_price",
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "utils.clamp",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_with_express_shipping",
+    "name": "test_calculate_order_totals_with_express_shipping",
+    "file": "sample_project/tests/test_integration_order_lifecycle.py",
+    "timeSec": 4.01,
+    "covers": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "order.calculate_order_totals",
+      "pricing.get_base_price",
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "utils.clamp",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_order_lifecycle.py::test_cancel_order_nonexistent",
+    "name": "test_cancel_order_nonexistent",
+    "file": "sample_project/tests/test_integration_order_lifecycle.py",
+    "timeSec": 3.01,
+    "covers": [
+      "order.cancel_order"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_order_lifecycle.py::test_circular_dependency_validators_and_order",
+    "name": "test_circular_dependency_validators_and_order",
+    "file": "sample_project/tests/test_integration_order_lifecycle.py",
+    "timeSec": 4.21,
+    "covers": [
+      "order.check_limits",
+      "validators.validate_order",
+      "validators.validate_quantity",
+      "validators.validate_sku"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_order_lifecycle.py::test_fraud_check_integration",
+    "name": "test_fraud_check_integration",
+    "file": "sample_project/tests/test_integration_order_lifecycle.py",
+    "timeSec": 3.31,
+    "covers": [
+      "payment.check_fraud_risk"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_order_lifecycle.py::test_order_limits_validation_excess",
+    "name": "test_order_limits_validation_excess",
+    "file": "sample_project/tests/test_integration_order_lifecycle.py",
+    "timeSec": 3.01,
+    "covers": [
+      "order.check_limits"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_order_lifecycle.py::test_order_limits_validation_success",
+    "name": "test_order_limits_validation_success",
+    "file": "sample_project/tests/test_integration_order_lifecycle.py",
+    "timeSec": 3.11,
+    "covers": [
+      "order.check_limits",
+      "validators.validate_order",
+      "validators.validate_quantity",
+      "validators.validate_sku"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_order_lifecycle.py::test_validate_and_reserve_insufficient",
+    "name": "test_validate_and_reserve_insufficient",
+    "file": "sample_project/tests/test_integration_order_lifecycle.py",
+    "timeSec": 3.21,
+    "covers": [
+      "inventory.check_stock",
+      "order.validate_and_reserve"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_order_lifecycle.py::test_validate_and_reserve_success",
+    "name": "test_validate_and_reserve_success",
+    "file": "sample_project/tests/test_integration_order_lifecycle.py",
+    "timeSec": 3.51,
+    "covers": [
+      "inventory.check_stock",
+      "inventory.reserve_stock",
+      "order.validate_and_reserve"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_pricing_discount.py::test_discount_does_not_exceed_cap",
+    "name": "test_discount_does_not_exceed_cap",
+    "file": "sample_project/tests/test_integration_pricing_discount.py",
+    "timeSec": 3.51,
+    "covers": [
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "utils.clamp",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_pricing_discount.py::test_discount_on_zero_subtotal",
+    "name": "test_discount_on_zero_subtotal",
+    "file": "sample_project/tests/test_integration_pricing_discount.py",
+    "timeSec": 2.01,
+    "covers": [
+      "discount.compute_final_discount"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_pricing_discount.py::test_holiday_sale_pricing_flow",
+    "name": "test_holiday_sale_pricing_flow",
+    "file": "sample_project/tests/test_integration_pricing_discount.py",
+    "timeSec": 2.91,
+    "covers": [
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "utils.clamp",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_pricing_discount.py::test_invalid_coupon_fallback",
+    "name": "test_invalid_coupon_fallback",
+    "file": "sample_project/tests/test_integration_pricing_discount.py",
+    "timeSec": 2.41,
+    "covers": [
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "utils.clamp",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_pricing_discount.py::test_markup_plus_tiered_discount",
+    "name": "test_markup_plus_tiered_discount",
+    "file": "sample_project/tests/test_integration_pricing_discount.py",
+    "timeSec": 2.71,
+    "covers": [
+      "discount.calculate_bundle_discount",
+      "pricing.apply_markup",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_pricing_discount.py::test_multiple_sku_bulk_pricing",
+    "name": "test_multiple_sku_bulk_pricing",
+    "file": "sample_project/tests/test_integration_pricing_discount.py",
+    "timeSec": 3.21,
+    "covers": [
+      "pricing.calculate_bulk_price",
+      "pricing.get_base_price",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_pricing_discount.py::test_normal_user_vip_coupon_rejection",
+    "name": "test_normal_user_vip_coupon_rejection",
+    "file": "sample_project/tests/test_integration_pricing_discount.py",
+    "timeSec": 2.51,
+    "covers": [
+      "user.calculate_loyalty_tier",
+      "user.can_apply_vip_discount",
+      "user.get_user_profile"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_pricing_discount.py::test_pricing_and_currency_formatting",
+    "name": "test_pricing_and_currency_formatting",
+    "file": "sample_project/tests/test_integration_pricing_discount.py",
+    "timeSec": 2.21,
+    "covers": [
+      "pricing.get_base_price",
+      "utils.format_currency",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_pricing_discount.py::test_vip_user_discount_qualification",
+    "name": "test_vip_user_discount_qualification",
+    "file": "sample_project/tests/test_integration_pricing_discount.py",
+    "timeSec": 3.01,
+    "covers": [
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "user.calculate_loyalty_tier",
+      "user.can_apply_vip_discount",
+      "user.get_user_profile",
+      "utils.clamp",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_integration_pricing_discount.py::test_wholesale_pricing_bulk_break_computation",
+    "name": "test_wholesale_pricing_bulk_break_computation",
+    "file": "sample_project/tests/test_integration_pricing_discount.py",
+    "timeSec": 2.31,
+    "covers": [
+      "pricing.calculate_bulk_price",
+      "pricing.get_base_price",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_inventory.py::test_check_stock_available",
+    "name": "test_check_stock_available",
+    "file": "sample_project/tests/test_inventory.py",
+    "timeSec": 0.09,
+    "covers": [
+      "inventory.check_stock"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_inventory.py::test_check_stock_insufficient",
+    "name": "test_check_stock_insufficient",
+    "file": "sample_project/tests/test_inventory.py",
+    "timeSec": 0.09,
+    "covers": [
+      "inventory.check_stock"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_inventory.py::test_check_stock_zero_or_negative",
+    "name": "test_check_stock_zero_or_negative",
+    "file": "sample_project/tests/test_inventory.py",
+    "timeSec": 0.06,
+    "covers": [
+      "inventory.check_stock"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_inventory.py::test_release_stock_zero",
+    "name": "test_release_stock_zero",
+    "file": "sample_project/tests/test_inventory.py",
+    "timeSec": 0.06,
+    "covers": [
+      "inventory.release_stock"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_inventory.py::test_reorder_threshold_not_reached",
+    "name": "test_reorder_threshold_not_reached",
+    "file": "sample_project/tests/test_inventory.py",
+    "timeSec": 0.09,
+    "covers": [
+      "inventory.reorder_threshold_reached"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_inventory.py::test_reorder_threshold_reached",
+    "name": "test_reorder_threshold_reached",
+    "file": "sample_project/tests/test_inventory.py",
+    "timeSec": 0.09,
+    "covers": [
+      "inventory.reorder_threshold_reached"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_inventory.py::test_reserve_stock_failure",
+    "name": "test_reserve_stock_failure",
+    "file": "sample_project/tests/test_inventory.py",
+    "timeSec": 0.11,
+    "covers": [
+      "inventory.check_stock",
+      "inventory.reserve_stock"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_inventory.py::test_reserve_stock_success_and_release",
+    "name": "test_reserve_stock_success_and_release",
+    "file": "sample_project/tests/test_inventory.py",
+    "timeSec": 0.16,
+    "covers": [
+      "inventory.check_stock",
+      "inventory.release_stock",
+      "inventory.reserve_stock"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_notification.py::test_format_order_email",
+    "name": "test_format_order_email",
+    "file": "sample_project/tests/test_notification.py",
+    "timeSec": 0.13,
+    "covers": [
+      "notification.format_order_email",
+      "utils.format_currency",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_notification.py::test_log_audit_event",
+    "name": "test_log_audit_event",
+    "file": "sample_project/tests/test_notification.py",
+    "timeSec": 0.09,
+    "covers": [
+      "notification.log_audit_event"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_notification.py::test_send_email_invalid",
+    "name": "test_send_email_invalid",
+    "file": "sample_project/tests/test_notification.py",
+    "timeSec": 0.09,
+    "covers": [
+      "notification.send_email"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_notification.py::test_send_email_valid",
+    "name": "test_send_email_valid",
+    "file": "sample_project/tests/test_notification.py",
+    "timeSec": 0.11,
+    "covers": [
+      "notification.log_audit_event",
+      "notification.send_email"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_notification.py::test_send_sms_invalid",
+    "name": "test_send_sms_invalid",
+    "file": "sample_project/tests/test_notification.py",
+    "timeSec": 0.09,
+    "covers": [
+      "notification.send_sms"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_notification.py::test_send_sms_valid",
+    "name": "test_send_sms_valid",
+    "file": "sample_project/tests/test_notification.py",
+    "timeSec": 0.11,
+    "covers": [
+      "notification.log_audit_event",
+      "notification.send_sms"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_payment.py::test_check_fraud_risk_high_amount",
+    "name": "test_check_fraud_risk_high_amount",
+    "file": "sample_project/tests/test_payment.py",
+    "timeSec": 0.16,
+    "covers": [
+      "payment.check_fraud_risk"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_payment.py::test_check_fraud_risk_normal",
+    "name": "test_check_fraud_risk_normal",
+    "file": "sample_project/tests/test_payment.py",
+    "timeSec": 0.16,
+    "covers": [
+      "payment.check_fraud_risk"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_payment.py::test_issue_refund_success_and_fail",
+    "name": "test_issue_refund_success_and_fail",
+    "file": "sample_project/tests/test_payment.py",
+    "timeSec": 0.21,
+    "covers": [
+      "payment.issue_refund",
+      "utils.hash_string",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_payment.py::test_process_charge_success",
+    "name": "test_process_charge_success",
+    "file": "sample_project/tests/test_payment.py",
+    "timeSec": 0.31,
+    "covers": [
+      "payment.process_charge",
+      "payment.validate_card",
+      "utils.hash_string",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_payment.py::test_validate_card_invalid_cvv",
+    "name": "test_validate_card_invalid_cvv",
+    "file": "sample_project/tests/test_payment.py",
+    "timeSec": 0.09,
+    "covers": [
+      "payment.validate_card"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_payment.py::test_validate_card_invalid_exp",
+    "name": "test_validate_card_invalid_exp",
+    "file": "sample_project/tests/test_payment.py",
+    "timeSec": 0.09,
+    "covers": [
+      "payment.validate_card"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_payment.py::test_validate_card_invalid_number",
+    "name": "test_validate_card_invalid_number",
+    "file": "sample_project/tests/test_payment.py",
+    "timeSec": 0.09,
+    "covers": [
+      "payment.validate_card"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_payment.py::test_validate_card_valid",
+    "name": "test_validate_card_valid",
+    "file": "sample_project/tests/test_payment.py",
+    "timeSec": 0.13,
+    "covers": [
+      "payment.validate_card"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_pricing.py::test_apply_markup_fraction",
+    "name": "test_apply_markup_fraction",
+    "file": "sample_project/tests/test_pricing.py",
+    "timeSec": 0.09,
+    "covers": [
+      "pricing.apply_markup",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_pricing.py::test_apply_markup_percentage",
+    "name": "test_apply_markup_percentage",
+    "file": "sample_project/tests/test_pricing.py",
+    "timeSec": 0.09,
+    "covers": [
+      "pricing.apply_markup",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_pricing.py::test_calculate_bulk_price_small_qty",
+    "name": "test_calculate_bulk_price_small_qty",
+    "file": "sample_project/tests/test_pricing.py",
+    "timeSec": 0.13,
+    "covers": [
+      "pricing.calculate_bulk_price",
+      "pricing.get_base_price",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_10",
+    "name": "test_calculate_bulk_price_tier_10",
+    "file": "sample_project/tests/test_pricing.py",
+    "timeSec": 0.13,
+    "covers": [
+      "pricing.calculate_bulk_price",
+      "pricing.get_base_price",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_20",
+    "name": "test_calculate_bulk_price_tier_20",
+    "file": "sample_project/tests/test_pricing.py",
+    "timeSec": 0.13,
+    "covers": [
+      "pricing.calculate_bulk_price",
+      "pricing.get_base_price",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_50",
+    "name": "test_calculate_bulk_price_tier_50",
+    "file": "sample_project/tests/test_pricing.py",
+    "timeSec": 0.16,
+    "covers": [
+      "pricing.calculate_bulk_price",
+      "pricing.get_base_price",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_pricing.py::test_get_base_price_invalid_item",
+    "name": "test_get_base_price_invalid_item",
+    "file": "sample_project/tests/test_pricing.py",
+    "timeSec": 0.09,
+    "covers": [
+      "pricing.get_base_price"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_pricing.py::test_get_base_price_valid_items",
+    "name": "test_get_base_price_valid_items",
+    "file": "sample_project/tests/test_pricing.py",
+    "timeSec": 0.11,
+    "covers": [
+      "pricing.get_base_price"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_shipping.py::test_calculate_shipping_cost_domestic_light",
+    "name": "test_calculate_shipping_cost_domestic_light",
+    "file": "sample_project/tests/test_shipping.py",
+    "timeSec": 0.19,
+    "covers": [
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_shipping.py::test_calculate_shipping_cost_international",
+    "name": "test_calculate_shipping_cost_international",
+    "file": "sample_project/tests/test_shipping.py",
+    "timeSec": 0.21,
+    "covers": [
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_shipping.py::test_calculate_shipping_weight_multiple",
+    "name": "test_calculate_shipping_weight_multiple",
+    "file": "sample_project/tests/test_shipping.py",
+    "timeSec": 0.16,
+    "covers": [
+      "shipping.calculate_shipping_weight",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_shipping.py::test_calculate_shipping_weight_single",
+    "name": "test_calculate_shipping_weight_single",
+    "file": "sample_project/tests/test_shipping.py",
+    "timeSec": 0.13,
+    "covers": [
+      "shipping.calculate_shipping_weight",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_shipping.py::test_estimate_delivery_days_express",
+    "name": "test_estimate_delivery_days_express",
+    "file": "sample_project/tests/test_shipping.py",
+    "timeSec": 0.09,
+    "covers": [
+      "shipping.estimate_delivery_days"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_shipping.py::test_estimate_delivery_days_standard",
+    "name": "test_estimate_delivery_days_standard",
+    "file": "sample_project/tests/test_shipping.py",
+    "timeSec": 0.09,
+    "covers": [
+      "shipping.estimate_delivery_days"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_shipping.py::test_get_shipping_tier_by_weight",
+    "name": "test_get_shipping_tier_by_weight",
+    "file": "sample_project/tests/test_shipping.py",
+    "timeSec": 0.09,
+    "covers": [
+      "shipping.get_shipping_tier"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_shipping.py::test_get_shipping_tier_express",
+    "name": "test_get_shipping_tier_express",
+    "file": "sample_project/tests/test_shipping.py",
+    "timeSec": 0.07,
+    "covers": [
+      "shipping.get_shipping_tier"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_tax.py::test_apply_tax_exemptions_exempt",
+    "name": "test_apply_tax_exemptions_exempt",
+    "file": "sample_project/tests/test_tax.py",
+    "timeSec": 0.09,
+    "covers": [
+      "tax.apply_tax_exemptions"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_tax.py::test_apply_tax_exemptions_not_exempt",
+    "name": "test_apply_tax_exemptions_not_exempt",
+    "file": "sample_project/tests/test_tax.py",
+    "timeSec": 0.09,
+    "covers": [
+      "tax.apply_tax_exemptions",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_tax.py::test_calculate_sales_tax_ca",
+    "name": "test_calculate_sales_tax_ca",
+    "file": "sample_project/tests/test_tax.py",
+    "timeSec": 0.13,
+    "covers": [
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_tax.py::test_calculate_sales_tax_eu",
+    "name": "test_calculate_sales_tax_eu",
+    "file": "sample_project/tests/test_tax.py",
+    "timeSec": 0.11,
+    "covers": [
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_tax.py::test_calculate_sales_tax_fractional",
+    "name": "test_calculate_sales_tax_fractional",
+    "file": "sample_project/tests/test_tax.py",
+    "timeSec": 0.13,
+    "covers": [
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_tax.py::test_calculate_sales_tax_zero_or_negative",
+    "name": "test_calculate_sales_tax_zero_or_negative",
+    "file": "sample_project/tests/test_tax.py",
+    "timeSec": 0.06,
+    "covers": [
+      "tax.calculate_sales_tax"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_tax.py::test_get_tax_rate_default_and_case",
+    "name": "test_get_tax_rate_default_and_case",
+    "file": "sample_project/tests/test_tax.py",
+    "timeSec": 0.07,
+    "covers": [
+      "tax.get_tax_rate"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_tax.py::test_get_tax_rate_regions",
+    "name": "test_get_tax_rate_regions",
+    "file": "sample_project/tests/test_tax.py",
+    "timeSec": 0.09,
+    "covers": [
+      "tax.get_tax_rate"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_user.py::test_calculate_loyalty_tier_gold",
+    "name": "test_calculate_loyalty_tier_gold",
+    "file": "sample_project/tests/test_user.py",
+    "timeSec": 0.09,
+    "covers": [
+      "user.calculate_loyalty_tier"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_user.py::test_calculate_loyalty_tier_platinum",
+    "name": "test_calculate_loyalty_tier_platinum",
+    "file": "sample_project/tests/test_user.py",
+    "timeSec": 0.09,
+    "covers": [
+      "user.calculate_loyalty_tier"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_user.py::test_calculate_loyalty_tier_silver_bronze",
+    "name": "test_calculate_loyalty_tier_silver_bronze",
+    "file": "sample_project/tests/test_user.py",
+    "timeSec": 0.09,
+    "covers": [
+      "user.calculate_loyalty_tier"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_user.py::test_can_apply_vip_discount",
+    "name": "test_can_apply_vip_discount",
+    "file": "sample_project/tests/test_user.py",
+    "timeSec": 0.13,
+    "covers": [
+      "user.calculate_loyalty_tier",
+      "user.can_apply_vip_discount",
+      "user.get_user_profile"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_user.py::test_get_user_profile_exists",
+    "name": "test_get_user_profile_exists",
+    "file": "sample_project/tests/test_user.py",
+    "timeSec": 0.16,
+    "covers": [
+      "user.calculate_loyalty_tier",
+      "user.get_user_profile"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_user.py::test_get_user_profile_missing",
+    "name": "test_get_user_profile_missing",
+    "file": "sample_project/tests/test_user.py",
+    "timeSec": 0.11,
+    "covers": [
+      "user.get_user_profile"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_utils.py::test_clamp_above_high",
+    "name": "test_clamp_above_high",
+    "file": "sample_project/tests/test_utils.py",
+    "timeSec": 0.06,
+    "covers": [
+      "utils.clamp"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_utils.py::test_clamp_below_low",
+    "name": "test_clamp_below_low",
+    "file": "sample_project/tests/test_utils.py",
+    "timeSec": 0.06,
+    "covers": [
+      "utils.clamp"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_utils.py::test_clamp_within_bounds",
+    "name": "test_clamp_within_bounds",
+    "file": "sample_project/tests/test_utils.py",
+    "timeSec": 0.09,
+    "covers": [
+      "utils.clamp"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_utils.py::test_format_currency_usd_and_eur",
+    "name": "test_format_currency_usd_and_eur",
+    "file": "sample_project/tests/test_utils.py",
+    "timeSec": 0.16,
+    "covers": [
+      "utils.format_currency",
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_utils.py::test_hash_string_deterministic",
+    "name": "test_hash_string_deterministic",
+    "file": "sample_project/tests/test_utils.py",
+    "timeSec": 0.21,
+    "covers": [
+      "utils.hash_string"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_utils.py::test_round_currency_half_up",
+    "name": "test_round_currency_half_up",
+    "file": "sample_project/tests/test_utils.py",
+    "timeSec": 0.13,
+    "covers": [
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_utils.py::test_round_currency_integer",
+    "name": "test_round_currency_integer",
+    "file": "sample_project/tests/test_utils.py",
+    "timeSec": 0.11,
+    "covers": [
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_utils.py::test_round_currency_standard",
+    "name": "test_round_currency_standard",
+    "file": "sample_project/tests/test_utils.py",
+    "timeSec": 0.16,
+    "covers": [
+      "utils.round_currency"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_validators.py::test_validate_email_invalid",
+    "name": "test_validate_email_invalid",
+    "file": "sample_project/tests/test_validators.py",
+    "timeSec": 0.09,
+    "covers": [
+      "validators.validate_email"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_validators.py::test_validate_email_valid",
+    "name": "test_validate_email_valid",
+    "file": "sample_project/tests/test_validators.py",
+    "timeSec": 0.13,
+    "covers": [
+      "validators.validate_email"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_validators.py::test_validate_order_empty_or_invalid",
+    "name": "test_validate_order_empty_or_invalid",
+    "file": "sample_project/tests/test_validators.py",
+    "timeSec": 0.16,
+    "covers": [
+      "validators.validate_order",
+      "validators.validate_sku"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_validators.py::test_validate_order_valid_structure",
+    "name": "test_validate_order_valid_structure",
+    "file": "sample_project/tests/test_validators.py",
+    "timeSec": 0.26,
+    "covers": [
+      "order.check_limits",
+      "validators.validate_order",
+      "validators.validate_quantity",
+      "validators.validate_sku"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_validators.py::test_validate_quantity_invalid",
+    "name": "test_validate_quantity_invalid",
+    "file": "sample_project/tests/test_validators.py",
+    "timeSec": 0.06,
+    "covers": [
+      "validators.validate_quantity"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_validators.py::test_validate_quantity_valid",
+    "name": "test_validate_quantity_valid",
+    "file": "sample_project/tests/test_validators.py",
+    "timeSec": 0.06,
+    "covers": [
+      "validators.validate_quantity"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_validators.py::test_validate_sku_invalid",
+    "name": "test_validate_sku_invalid",
+    "file": "sample_project/tests/test_validators.py",
+    "timeSec": 0.07,
+    "covers": [
+      "validators.validate_sku"
+    ]
+  },
+  {
+    "id": "sample_project/tests/test_validators.py::test_validate_sku_valid",
+    "name": "test_validate_sku_valid",
+    "file": "sample_project/tests/test_validators.py",
+    "timeSec": 0.11,
+    "covers": [
+      "validators.validate_sku"
+    ]
+  }
+]

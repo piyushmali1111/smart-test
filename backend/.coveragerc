@@ -1,0 +1,3 @@
+[run]
+source = sample_project/shop
+dynamic_context = test_function

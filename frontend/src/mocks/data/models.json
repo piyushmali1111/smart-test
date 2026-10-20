@@ -1,0 +1,16 @@
+{
+  "_comment": "PLACEHOLDER VALUES, replace with real experiment output.",
+  "models": [
+    { "name": "Random Forest", "accuracy": 0.892, "precision": 0.865, "recall": 0.912, "f1": 0.888 },
+    { "name": "Gradient Boosting", "accuracy": 0.884, "precision": 0.851, "recall": 0.903, "f1": 0.876 },
+    { "name": "Logistic Regression", "accuracy": 0.795, "precision": 0.742, "recall": 0.814, "f1": 0.776 }
+  ],
+  "featureImportance": [
+    { "feature": "Dependency Distance", "importance": 0.384 },
+    { "feature": "Code Churn (Lines)", "importance": 0.221 },
+    { "feature": "Past Failure Rate", "importance": 0.168 },
+    { "feature": "Cyclomatic Complexity", "importance": 0.115 },
+    { "feature": "Test Execution Time", "importance": 0.064 },
+    { "feature": "Author Bug Proneness", "importance": 0.048 }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "auth": 0.63,
+  "cart": 0.17,
+  "discount": 0.36,
+  "inventory": 0.32,
+  "notification": 0.7,
+  "order": 0.66,
+  "payment": 0.82,
+  "pricing": 0.22,
+  "report": 0.47,
+  "shipping": 0.17,
+  "tax": 0.31,
+  "user": 0.53,
+  "utils": 0.17,
+  "validators": 0.3
+}

@@ -1,0 +1,22 @@
+{
+  "projectName": "shop",
+  "numFunctions": 53,
+  "numTests": 136,
+  "suiteTimeSec": 369.64,
+  "durationsSimulated": true,
+  "budgetRange": {
+    "min": 5,
+    "max": 300,
+    "step": 5,
+    "default": 30
+  },
+  "seed": 42,
+  "builtAt": "2026-10-20T10:45:40.805294+00:00",
+  "mutationScore": 69.5,
+  "optimalityGapStats": {
+    "meanGapPct": 0.27,
+    "maxGapPct": 10.86,
+    "medianGapPct": 0.0,
+    "instancesTested": 200
+  }
+}

@@ -1,0 +1,652 @@
+{
+  "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow": {
+    "appearances": 111,
+    "fails": 30,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount": {
+    "appearances": 111,
+    "fails": 40,
+    "recent_fails": 3
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow": {
+    "appearances": 117,
+    "fails": 35,
+    "recent_fails": 0
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection": {
+    "appearances": 111,
+    "fails": 21,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_empty_cart_error": {
+    "appearances": 111,
+    "fails": 0,
+    "recent_fails": 0
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback": {
+    "appearances": 111,
+    "fails": 20,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection": {
+    "appearances": 111,
+    "fails": 23,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact": {
+    "appearances": 111,
+    "fails": 36,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout": {
+    "appearances": 111,
+    "fails": 34,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_payment.py::test_process_charge_success": {
+    "appearances": 17,
+    "fails": 8,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_notification.py::test_send_email_valid": {
+    "appearances": 3,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_notification.py::test_send_email_invalid": {
+    "appearances": 3,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_integration_order_lifecycle.py::test_order_limits_validation_success": {
+    "appearances": 22,
+    "fails": 8,
+    "recent_fails": 4
+  },
+  "sample_project/tests/test_integration_order_lifecycle.py::test_order_limits_validation_excess": {
+    "appearances": 22,
+    "fails": 2,
+    "recent_fails": 0
+  },
+  "sample_project/tests/test_integration_order_lifecycle.py::test_circular_dependency_validators_and_order": {
+    "appearances": 22,
+    "fails": 11,
+    "recent_fails": 4
+  },
+  "sample_project/tests/test_validators.py::test_validate_order_valid_structure": {
+    "appearances": 22,
+    "fails": 9,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_validators.py::test_validate_order_empty_or_invalid": {
+    "appearances": 22,
+    "fails": 6,
+    "recent_fails": 0
+  },
+  "sample_project/tests/test_cart.py::test_calculate_total_basic": {
+    "appearances": 36,
+    "fails": 15,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_cart.py::test_calculate_total_with_coupon": {
+    "appearances": 36,
+    "fails": 17,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_cart.py::test_calculate_total_empty": {
+    "appearances": 36,
+    "fails": 3,
+    "recent_fails": 0
+  },
+  "sample_project/tests/test_integration_cart_checkout.py::test_cart_checkout_with_tiered_discounts_and_tax": {
+    "appearances": 40,
+    "fails": 12,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_integration_cart_checkout.py::test_cart_coupon_application_and_total": {
+    "appearances": 40,
+    "fails": 20,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_integration_cart_checkout.py::test_cart_with_zero_tax_region_and_coupon": {
+    "appearances": 36,
+    "fails": 17,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_integration_cart_checkout.py::test_cart_grand_total_incorporating_shipping": {
+    "appearances": 44,
+    "fails": 9,
+    "recent_fails": 0
+  },
+  "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_standard": {
+    "appearances": 46,
+    "fails": 13,
+    "recent_fails": 0
+  },
+  "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_with_express_shipping": {
+    "appearances": 46,
+    "fails": 10,
+    "recent_fails": 0
+  },
+  "sample_project/tests/test_discount.py::test_apply_seasonal_discount_holiday": {
+    "appearances": 5,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_discount.py::test_apply_seasonal_discount_summer": {
+    "appearances": 5,
+    "fails": 3,
+    "recent_fails": 3
+  },
+  "sample_project/tests/test_discount.py::test_apply_seasonal_discount_other_months": {
+    "appearances": 5,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_discount.py::test_compute_final_discount_with_coupon": {
+    "appearances": 26,
+    "fails": 10,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_discount.py::test_compute_final_discount_coupon_min_spend_not_met": {
+    "appearances": 26,
+    "fails": 6,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_discount.py::test_compute_final_discount_clamped_to_70_pct": {
+    "appearances": 26,
+    "fails": 7,
+    "recent_fails": 0
+  },
+  "sample_project/tests/test_integration_pricing_discount.py::test_vip_user_discount_qualification": {
+    "appearances": 31,
+    "fails": 11,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_integration_pricing_discount.py::test_discount_does_not_exceed_cap": {
+    "appearances": 26,
+    "fails": 4,
+    "recent_fails": 0
+  },
+  "sample_project/tests/test_integration_pricing_discount.py::test_holiday_sale_pricing_flow": {
+    "appearances": 26,
+    "fails": 9,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_integration_pricing_discount.py::test_discount_on_zero_subtotal": {
+    "appearances": 26,
+    "fails": 1,
+    "recent_fails": 0
+  },
+  "sample_project/tests/test_integration_pricing_discount.py::test_invalid_coupon_fallback": {
+    "appearances": 26,
+    "fails": 8,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_validators.py::test_validate_email_valid": {
+    "appearances": 12,
+    "fails": 4,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_validators.py::test_validate_email_invalid": {
+    "appearances": 12,
+    "fails": 9,
+    "recent_fails": 4
+  },
+  "sample_project/tests/test_integration_cart_checkout.py::test_inventory_check_matches_cart_items": {
+    "appearances": 4,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_integration_order_lifecycle.py::test_validate_and_reserve_success": {
+    "appearances": 13,
+    "fails": 3,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_integration_order_lifecycle.py::test_validate_and_reserve_insufficient": {
+    "appearances": 13,
+    "fails": 2,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_inventory.py::test_check_stock_available": {
+    "appearances": 4,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_inventory.py::test_check_stock_insufficient": {
+    "appearances": 4,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_inventory.py::test_check_stock_zero_or_negative": {
+    "appearances": 4,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_inventory.py::test_reserve_stock_success_and_release": {
+    "appearances": 9,
+    "fails": 4,
+    "recent_fails": 3
+  },
+  "sample_project/tests/test_inventory.py::test_reserve_stock_failure": {
+    "appearances": 9,
+    "fails": 3,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_shipping.py::test_estimate_delivery_days_standard": {
+    "appearances": 3,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_shipping.py::test_estimate_delivery_days_express": {
+    "appearances": 3,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_cart.py::test_calculate_subtotal": {
+    "appearances": 4,
+    "fails": 3,
+    "recent_fails": 3
+  },
+  "sample_project/tests/test_integration_cart_checkout.py::test_cart_item_addition_and_subtotal_consistency": {
+    "appearances": 8,
+    "fails": 5,
+    "recent_fails": 3
+  },
+  "sample_project/tests/test_integration_cart_checkout.py::test_cart_removal_and_recalculation": {
+    "appearances": 8,
+    "fails": 5,
+    "recent_fails": 4
+  },
+  "sample_project/tests/test_integration_cart_checkout.py::test_cart_item_update_edge_cases": {
+    "appearances": 8,
+    "fails": 5,
+    "recent_fails": 3
+  },
+  "sample_project/tests/test_auth.py::test_verify_token_user": {
+    "appearances": 6,
+    "fails": 6,
+    "recent_fails": 5
+  },
+  "sample_project/tests/test_auth.py::test_verify_token_invalid": {
+    "appearances": 6,
+    "fails": 1,
+    "recent_fails": 0
+  },
+  "sample_project/tests/test_integration_cart_checkout.py::test_shipping_cost_estimation_for_multi_item_cart": {
+    "appearances": 9,
+    "fails": 4,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_integration_cart_checkout.py::test_shipping_cost_express_air": {
+    "appearances": 9,
+    "fails": 2,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_shipping.py::test_calculate_shipping_weight_single": {
+    "appearances": 3,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_shipping.py::test_calculate_shipping_weight_multiple": {
+    "appearances": 3,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_shipping.py::test_calculate_shipping_cost_domestic_light": {
+    "appearances": 9,
+    "fails": 6,
+    "recent_fails": 3
+  },
+  "sample_project/tests/test_shipping.py::test_calculate_shipping_cost_international": {
+    "appearances": 9,
+    "fails": 5,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_auth.py::test_check_permission_admin": {
+    "appearances": 7,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_auth.py::test_check_permission_user": {
+    "appearances": 7,
+    "fails": 6,
+    "recent_fails": 4
+  },
+  "sample_project/tests/test_cart.py::test_apply_coupon_valid": {
+    "appearances": 5,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_cart.py::test_apply_coupon_invalid": {
+    "appearances": 5,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_discount.py::test_validate_coupon_valid_pct": {
+    "appearances": 5,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_discount.py::test_validate_coupon_valid_flat": {
+    "appearances": 5,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_discount.py::test_validate_coupon_invalid_or_empty": {
+    "appearances": 5,
+    "fails": 3,
+    "recent_fails": 3
+  },
+  "sample_project/tests/test_cart.py::test_add_item_new": {
+    "appearances": 4,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_cart.py::test_add_item_existing": {
+    "appearances": 4,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_cart.py::test_add_item_invalid_quantity": {
+    "appearances": 4,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_validators.py::test_validate_sku_valid": {
+    "appearances": 4,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_validators.py::test_validate_sku_invalid": {
+    "appearances": 4,
+    "fails": 3,
+    "recent_fails": 3
+  },
+  "sample_project/tests/test_payment.py::test_validate_card_valid": {
+    "appearances": 10,
+    "fails": 4,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_payment.py::test_validate_card_invalid_number": {
+    "appearances": 10,
+    "fails": 0,
+    "recent_fails": 0
+  },
+  "sample_project/tests/test_payment.py::test_validate_card_invalid_exp": {
+    "appearances": 10,
+    "fails": 4,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_payment.py::test_validate_card_invalid_cvv": {
+    "appearances": 10,
+    "fails": 2,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_notification.py::test_format_order_email": {
+    "appearances": 5,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_integration_pricing_discount.py::test_pricing_and_currency_formatting": {
+    "appearances": 5,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_utils.py::test_format_currency_usd_and_eur": {
+    "appearances": 4,
+    "fails": 3,
+    "recent_fails": 3
+  },
+  "sample_project/tests/test_notification.py::test_send_sms_valid": {
+    "appearances": 5,
+    "fails": 3,
+    "recent_fails": 3
+  },
+  "sample_project/tests/test_notification.py::test_send_sms_invalid": {
+    "appearances": 5,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_discount.py::test_calculate_bundle_discount_tiers": {
+    "appearances": 7,
+    "fails": 5,
+    "recent_fails": 4
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_sales_report_aggregation": {
+    "appearances": 2,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_profit_margin_reporting": {
+    "appearances": 4,
+    "fails": 3,
+    "recent_fails": 3
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_tax_ledger_reporting": {
+    "appearances": 2,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_integration_order_lifecycle.py::test_cancel_order_nonexistent": {
+    "appearances": 8,
+    "fails": 0,
+    "recent_fails": 0
+  },
+  "sample_project/tests/test_integration_pricing_discount.py::test_wholesale_pricing_bulk_break_computation": {
+    "appearances": 9,
+    "fails": 5,
+    "recent_fails": 4
+  },
+  "sample_project/tests/test_integration_pricing_discount.py::test_markup_plus_tiered_discount": {
+    "appearances": 10,
+    "fails": 5,
+    "recent_fails": 4
+  },
+  "sample_project/tests/test_integration_pricing_discount.py::test_multiple_sku_bulk_pricing": {
+    "appearances": 9,
+    "fails": 3,
+    "recent_fails": 3
+  },
+  "sample_project/tests/test_payment.py::test_issue_refund_success_and_fail": {
+    "appearances": 7,
+    "fails": 6,
+    "recent_fails": 5
+  },
+  "sample_project/tests/test_pricing.py::test_calculate_bulk_price_small_qty": {
+    "appearances": 9,
+    "fails": 3,
+    "recent_fails": 3
+  },
+  "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_10": {
+    "appearances": 9,
+    "fails": 5,
+    "recent_fails": 4
+  },
+  "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_20": {
+    "appearances": 9,
+    "fails": 4,
+    "recent_fails": 3
+  },
+  "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_50": {
+    "appearances": 9,
+    "fails": 5,
+    "recent_fails": 4
+  },
+  "sample_project/tests/test_pricing.py::test_apply_markup_fraction": {
+    "appearances": 4,
+    "fails": 3,
+    "recent_fails": 3
+  },
+  "sample_project/tests/test_pricing.py::test_apply_markup_percentage": {
+    "appearances": 4,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_tax.py::test_calculate_sales_tax_ca": {
+    "appearances": 4,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_tax.py::test_calculate_sales_tax_zero_or_negative": {
+    "appearances": 4,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_tax.py::test_calculate_sales_tax_eu": {
+    "appearances": 4,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_tax.py::test_calculate_sales_tax_fractional": {
+    "appearances": 4,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_tax.py::test_apply_tax_exemptions_exempt": {
+    "appearances": 3,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_tax.py::test_apply_tax_exemptions_not_exempt": {
+    "appearances": 3,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_utils.py::test_round_currency_standard": {
+    "appearances": 1,
+    "fails": 0,
+    "recent_fails": 0
+  },
+  "sample_project/tests/test_utils.py::test_round_currency_integer": {
+    "appearances": 1,
+    "fails": 0,
+    "recent_fails": 0
+  },
+  "sample_project/tests/test_utils.py::test_round_currency_half_up": {
+    "appearances": 1,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_utils.py::test_clamp_within_bounds": {
+    "appearances": 3,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_utils.py::test_clamp_below_low": {
+    "appearances": 3,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_utils.py::test_clamp_above_high": {
+    "appearances": 3,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_auth.py::test_hash_password_success": {
+    "appearances": 2,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_auth.py::test_hash_password_too_short": {
+    "appearances": 2,
+    "fails": 0,
+    "recent_fails": 0
+  },
+  "sample_project/tests/test_validators.py::test_validate_quantity_valid": {
+    "appearances": 3,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_validators.py::test_validate_quantity_invalid": {
+    "appearances": 3,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_integration_order_lifecycle.py::test_fraud_check_integration": {
+    "appearances": 1,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_payment.py::test_check_fraud_risk_normal": {
+    "appearances": 1,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_payment.py::test_check_fraud_risk_high_amount": {
+    "appearances": 1,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_shipping.py::test_get_shipping_tier_express": {
+    "appearances": 3,
+    "fails": 0,
+    "recent_fails": 0
+  },
+  "sample_project/tests/test_shipping.py::test_get_shipping_tier_by_weight": {
+    "appearances": 3,
+    "fails": 3,
+    "recent_fails": 3
+  },
+  "sample_project/tests/test_inventory.py::test_reorder_threshold_not_reached": {
+    "appearances": 1,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_inventory.py::test_reorder_threshold_reached": {
+    "appearances": 1,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_integration_pricing_discount.py::test_normal_user_vip_coupon_rejection": {
+    "appearances": 5,
+    "fails": 0,
+    "recent_fails": 0
+  },
+  "sample_project/tests/test_user.py::test_can_apply_vip_discount": {
+    "appearances": 5,
+    "fails": 3,
+    "recent_fails": 3
+  },
+  "sample_project/tests/test_user.py::test_get_user_profile_exists": {
+    "appearances": 3,
+    "fails": 0,
+    "recent_fails": 0
+  },
+  "sample_project/tests/test_user.py::test_get_user_profile_missing": {
+    "appearances": 3,
+    "fails": 0,
+    "recent_fails": 0
+  },
+  "sample_project/tests/test_user.py::test_calculate_loyalty_tier_platinum": {
+    "appearances": 3,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_user.py::test_calculate_loyalty_tier_gold": {
+    "appearances": 3,
+    "fails": 0,
+    "recent_fails": 0
+  },
+  "sample_project/tests/test_user.py::test_calculate_loyalty_tier_silver_bronze": {
+    "appearances": 3,
+    "fails": 2,
+    "recent_fails": 2
+  },
+  "sample_project/tests/test_utils.py::test_hash_string_deterministic": {
+    "appearances": 1,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_pricing.py::test_get_base_price_valid_items": {
+    "appearances": 1,
+    "fails": 1,
+    "recent_fails": 1
+  },
+  "sample_project/tests/test_pricing.py::test_get_base_price_invalid_item": {
+    "appearances": 1,
+    "fails": 0,
+    "recent_fails": 0
+  }
+}

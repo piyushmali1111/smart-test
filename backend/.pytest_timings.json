@@ -1,0 +1,1226 @@
+{
+  "sample_project/tests/test_auth.py::test_hash_password_success": {
+    "id": "sample_project/tests/test_auth.py::test_hash_password_success",
+    "name": "test_hash_password_success",
+    "file": "sample_project/tests/test_auth.py",
+    "measuredSec": 0.0275,
+    "simulatedSec": 0.25,
+    "timeSec": 0.28,
+    "passed": true
+  },
+  "sample_project/tests/test_auth.py::test_hash_password_too_short": {
+    "id": "sample_project/tests/test_auth.py::test_hash_password_too_short",
+    "name": "test_hash_password_too_short",
+    "file": "sample_project/tests/test_auth.py",
+    "measuredSec": 0.0071,
+    "simulatedSec": 0.1,
+    "timeSec": 0.11,
+    "passed": true
+  },
+  "sample_project/tests/test_auth.py::test_verify_token_user": {
+    "id": "sample_project/tests/test_auth.py::test_verify_token_user",
+    "name": "test_verify_token_user",
+    "file": "sample_project/tests/test_auth.py",
+    "measuredSec": 0.0077,
+    "simulatedSec": 0.18,
+    "timeSec": 0.19,
+    "passed": true
+  },
+  "sample_project/tests/test_auth.py::test_verify_token_invalid": {
+    "id": "sample_project/tests/test_auth.py::test_verify_token_invalid",
+    "name": "test_verify_token_invalid",
+    "file": "sample_project/tests/test_auth.py",
+    "measuredSec": 0.0078,
+    "simulatedSec": 0.12,
+    "timeSec": 0.13,
+    "passed": true
+  },
+  "sample_project/tests/test_auth.py::test_check_permission_admin": {
+    "id": "sample_project/tests/test_auth.py::test_check_permission_admin",
+    "name": "test_check_permission_admin",
+    "file": "sample_project/tests/test_auth.py",
+    "measuredSec": 0.0085,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_auth.py::test_check_permission_user": {
+    "id": "sample_project/tests/test_auth.py::test_check_permission_user",
+    "name": "test_check_permission_user",
+    "file": "sample_project/tests/test_auth.py",
+    "measuredSec": 0.0081,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_cart.py::test_add_item_new": {
+    "id": "sample_project/tests/test_cart.py::test_add_item_new",
+    "name": "test_add_item_new",
+    "file": "sample_project/tests/test_cart.py",
+    "measuredSec": 0.0086,
+    "simulatedSec": 0.12,
+    "timeSec": 0.13,
+    "passed": true
+  },
+  "sample_project/tests/test_cart.py::test_add_item_existing": {
+    "id": "sample_project/tests/test_cart.py::test_add_item_existing",
+    "name": "test_add_item_existing",
+    "file": "sample_project/tests/test_cart.py",
+    "measuredSec": 0.0072,
+    "simulatedSec": 0.12,
+    "timeSec": 0.13,
+    "passed": true
+  },
+  "sample_project/tests/test_cart.py::test_add_item_invalid_quantity": {
+    "id": "sample_project/tests/test_cart.py::test_add_item_invalid_quantity",
+    "name": "test_add_item_invalid_quantity",
+    "file": "sample_project/tests/test_cart.py",
+    "measuredSec": 0.0075,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_cart.py::test_remove_item": {
+    "id": "sample_project/tests/test_cart.py::test_remove_item",
+    "name": "test_remove_item",
+    "file": "sample_project/tests/test_cart.py",
+    "measuredSec": 0.0068,
+    "simulatedSec": 0.1,
+    "timeSec": 0.11,
+    "passed": true
+  },
+  "sample_project/tests/test_cart.py::test_apply_coupon_valid": {
+    "id": "sample_project/tests/test_cart.py::test_apply_coupon_valid",
+    "name": "test_apply_coupon_valid",
+    "file": "sample_project/tests/test_cart.py",
+    "measuredSec": 0.008,
+    "simulatedSec": 0.15,
+    "timeSec": 0.16,
+    "passed": true
+  },
+  "sample_project/tests/test_cart.py::test_apply_coupon_invalid": {
+    "id": "sample_project/tests/test_cart.py::test_apply_coupon_invalid",
+    "name": "test_apply_coupon_invalid",
+    "file": "sample_project/tests/test_cart.py",
+    "measuredSec": 0.0073,
+    "simulatedSec": 0.1,
+    "timeSec": 0.11,
+    "passed": true
+  },
+  "sample_project/tests/test_cart.py::test_calculate_subtotal": {
+    "id": "sample_project/tests/test_cart.py::test_calculate_subtotal",
+    "name": "test_calculate_subtotal",
+    "file": "sample_project/tests/test_cart.py",
+    "measuredSec": 0.0059,
+    "simulatedSec": 0.18,
+    "timeSec": 0.19,
+    "passed": true
+  },
+  "sample_project/tests/test_cart.py::test_calculate_total_basic": {
+    "id": "sample_project/tests/test_cart.py::test_calculate_total_basic",
+    "name": "test_calculate_total_basic",
+    "file": "sample_project/tests/test_cart.py",
+    "measuredSec": 0.008,
+    "simulatedSec": 0.25,
+    "timeSec": 0.26,
+    "passed": true
+  },
+  "sample_project/tests/test_cart.py::test_calculate_total_with_coupon": {
+    "id": "sample_project/tests/test_cart.py::test_calculate_total_with_coupon",
+    "name": "test_calculate_total_with_coupon",
+    "file": "sample_project/tests/test_cart.py",
+    "measuredSec": 0.0078,
+    "simulatedSec": 0.25,
+    "timeSec": 0.26,
+    "passed": true
+  },
+  "sample_project/tests/test_cart.py::test_calculate_total_empty": {
+    "id": "sample_project/tests/test_cart.py::test_calculate_total_empty",
+    "name": "test_calculate_total_empty",
+    "file": "sample_project/tests/test_cart.py",
+    "measuredSec": 0.0071,
+    "simulatedSec": 0.1,
+    "timeSec": 0.11,
+    "passed": true
+  },
+  "sample_project/tests/test_discount.py::test_validate_coupon_valid_pct": {
+    "id": "sample_project/tests/test_discount.py::test_validate_coupon_valid_pct",
+    "name": "test_validate_coupon_valid_pct",
+    "file": "sample_project/tests/test_discount.py",
+    "measuredSec": 0.0071,
+    "simulatedSec": 0.12,
+    "timeSec": 0.13,
+    "passed": true
+  },
+  "sample_project/tests/test_discount.py::test_validate_coupon_valid_flat": {
+    "id": "sample_project/tests/test_discount.py::test_validate_coupon_valid_flat",
+    "name": "test_validate_coupon_valid_flat",
+    "file": "sample_project/tests/test_discount.py",
+    "measuredSec": 0.0075,
+    "simulatedSec": 0.12,
+    "timeSec": 0.13,
+    "passed": true
+  },
+  "sample_project/tests/test_discount.py::test_validate_coupon_invalid_or_empty": {
+    "id": "sample_project/tests/test_discount.py::test_validate_coupon_invalid_or_empty",
+    "name": "test_validate_coupon_invalid_or_empty",
+    "file": "sample_project/tests/test_discount.py",
+    "measuredSec": 0.0072,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_discount.py::test_calculate_bundle_discount_tiers": {
+    "id": "sample_project/tests/test_discount.py::test_calculate_bundle_discount_tiers",
+    "name": "test_calculate_bundle_discount_tiers",
+    "file": "sample_project/tests/test_discount.py",
+    "measuredSec": 0.0081,
+    "simulatedSec": 0.15,
+    "timeSec": 0.16,
+    "passed": true
+  },
+  "sample_project/tests/test_discount.py::test_apply_seasonal_discount_holiday": {
+    "id": "sample_project/tests/test_discount.py::test_apply_seasonal_discount_holiday",
+    "name": "test_apply_seasonal_discount_holiday",
+    "file": "sample_project/tests/test_discount.py",
+    "measuredSec": 0.0057,
+    "simulatedSec": 0.1,
+    "timeSec": 0.11,
+    "passed": true
+  },
+  "sample_project/tests/test_discount.py::test_apply_seasonal_discount_summer": {
+    "id": "sample_project/tests/test_discount.py::test_apply_seasonal_discount_summer",
+    "name": "test_apply_seasonal_discount_summer",
+    "file": "sample_project/tests/test_discount.py",
+    "measuredSec": 0.0072,
+    "simulatedSec": 0.1,
+    "timeSec": 0.11,
+    "passed": true
+  },
+  "sample_project/tests/test_discount.py::test_apply_seasonal_discount_other_months": {
+    "id": "sample_project/tests/test_discount.py::test_apply_seasonal_discount_other_months",
+    "name": "test_apply_seasonal_discount_other_months",
+    "file": "sample_project/tests/test_discount.py",
+    "measuredSec": 0.007,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_discount.py::test_compute_final_discount_with_coupon": {
+    "id": "sample_project/tests/test_discount.py::test_compute_final_discount_with_coupon",
+    "name": "test_compute_final_discount_with_coupon",
+    "file": "sample_project/tests/test_discount.py",
+    "measuredSec": 0.0064,
+    "simulatedSec": 0.2,
+    "timeSec": 0.21,
+    "passed": true
+  },
+  "sample_project/tests/test_discount.py::test_compute_final_discount_coupon_min_spend_not_met": {
+    "id": "sample_project/tests/test_discount.py::test_compute_final_discount_coupon_min_spend_not_met",
+    "name": "test_compute_final_discount_coupon_min_spend_not_met",
+    "file": "sample_project/tests/test_discount.py",
+    "measuredSec": 0.0072,
+    "simulatedSec": 0.15,
+    "timeSec": 0.16,
+    "passed": true
+  },
+  "sample_project/tests/test_discount.py::test_compute_final_discount_clamped_to_70_pct": {
+    "id": "sample_project/tests/test_discount.py::test_compute_final_discount_clamped_to_70_pct",
+    "name": "test_compute_final_discount_clamped_to_70_pct",
+    "file": "sample_project/tests/test_discount.py",
+    "measuredSec": 0.0067,
+    "simulatedSec": 0.25,
+    "timeSec": 0.26,
+    "passed": true
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow": {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+    "name": "test_e2e_complete_successful_checkout_flow",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "measuredSec": 0.0106,
+    "simulatedSec": 22.0,
+    "timeSec": 22.01,
+    "passed": true
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount": {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+    "name": "test_e2e_checkout_with_vip_discount",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "measuredSec": 0.0063,
+    "simulatedSec": 25.0,
+    "timeSec": 25.01,
+    "passed": true
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow": {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+    "name": "test_e2e_order_cancellation_flow",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "measuredSec": 0.008,
+    "simulatedSec": 20.0,
+    "timeSec": 20.01,
+    "passed": true
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection": {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+    "name": "test_e2e_fraud_detection_rejection",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "measuredSec": 0.007,
+    "simulatedSec": 16.0,
+    "timeSec": 16.01,
+    "passed": true
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_empty_cart_error": {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_empty_cart_error",
+    "name": "test_e2e_empty_cart_error",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "measuredSec": 0.0085,
+    "simulatedSec": 15.0,
+    "timeSec": 15.01,
+    "passed": true
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback": {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+    "name": "test_e2e_insufficient_stock_rollback",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "measuredSec": 0.0092,
+    "simulatedSec": 18.0,
+    "timeSec": 18.01,
+    "passed": true
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection": {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+    "name": "test_e2e_invalid_payment_card_rejection",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "measuredSec": 0.0099,
+    "simulatedSec": 17.0,
+    "timeSec": 17.01,
+    "passed": true
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_sales_report_aggregation": {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_sales_report_aggregation",
+    "name": "test_e2e_sales_report_aggregation",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "measuredSec": 0.0096,
+    "simulatedSec": 24.0,
+    "timeSec": 24.01,
+    "passed": true
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_profit_margin_reporting": {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_profit_margin_reporting",
+    "name": "test_e2e_profit_margin_reporting",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "measuredSec": 0.0096,
+    "simulatedSec": 26.0,
+    "timeSec": 26.01,
+    "passed": true
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_tax_ledger_reporting": {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_tax_ledger_reporting",
+    "name": "test_e2e_tax_ledger_reporting",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "measuredSec": 0.0102,
+    "simulatedSec": 23.0,
+    "timeSec": 23.01,
+    "passed": true
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact": {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+    "name": "test_e2e_express_shipping_cost_impact",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "measuredSec": 0.0104,
+    "simulatedSec": 28.0,
+    "timeSec": 28.01,
+    "passed": true
+  },
+  "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout": {
+    "id": "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+    "name": "test_e2e_international_order_checkout",
+    "file": "sample_project/tests/test_e2e_orders.py",
+    "measuredSec": 0.0113,
+    "simulatedSec": 35.0,
+    "timeSec": 35.01,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_cart_checkout.py::test_cart_item_addition_and_subtotal_consistency": {
+    "id": "sample_project/tests/test_integration_cart_checkout.py::test_cart_item_addition_and_subtotal_consistency",
+    "name": "test_cart_item_addition_and_subtotal_consistency",
+    "file": "sample_project/tests/test_integration_cart_checkout.py",
+    "measuredSec": 0.0105,
+    "simulatedSec": 2.2,
+    "timeSec": 2.21,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_cart_checkout.py::test_cart_removal_and_recalculation": {
+    "id": "sample_project/tests/test_integration_cart_checkout.py::test_cart_removal_and_recalculation",
+    "name": "test_cart_removal_and_recalculation",
+    "file": "sample_project/tests/test_integration_cart_checkout.py",
+    "measuredSec": 0.0087,
+    "simulatedSec": 2.5,
+    "timeSec": 2.51,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_cart_checkout.py::test_cart_checkout_with_tiered_discounts_and_tax": {
+    "id": "sample_project/tests/test_integration_cart_checkout.py::test_cart_checkout_with_tiered_discounts_and_tax",
+    "name": "test_cart_checkout_with_tiered_discounts_and_tax",
+    "file": "sample_project/tests/test_integration_cart_checkout.py",
+    "measuredSec": 0.0103,
+    "simulatedSec": 3.1,
+    "timeSec": 3.11,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_cart_checkout.py::test_cart_coupon_application_and_total": {
+    "id": "sample_project/tests/test_integration_cart_checkout.py::test_cart_coupon_application_and_total",
+    "name": "test_cart_coupon_application_and_total",
+    "file": "sample_project/tests/test_integration_cart_checkout.py",
+    "measuredSec": 0.0091,
+    "simulatedSec": 2.8,
+    "timeSec": 2.81,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_cart_checkout.py::test_shipping_cost_estimation_for_multi_item_cart": {
+    "id": "sample_project/tests/test_integration_cart_checkout.py::test_shipping_cost_estimation_for_multi_item_cart",
+    "name": "test_shipping_cost_estimation_for_multi_item_cart",
+    "file": "sample_project/tests/test_integration_cart_checkout.py",
+    "measuredSec": 0.0093,
+    "simulatedSec": 2.4,
+    "timeSec": 2.41,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_cart_checkout.py::test_shipping_cost_express_air": {
+    "id": "sample_project/tests/test_integration_cart_checkout.py::test_shipping_cost_express_air",
+    "name": "test_shipping_cost_express_air",
+    "file": "sample_project/tests/test_integration_cart_checkout.py",
+    "measuredSec": 0.0088,
+    "simulatedSec": 2.6,
+    "timeSec": 2.61,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_cart_checkout.py::test_inventory_check_matches_cart_items": {
+    "id": "sample_project/tests/test_integration_cart_checkout.py::test_inventory_check_matches_cart_items",
+    "name": "test_inventory_check_matches_cart_items",
+    "file": "sample_project/tests/test_integration_cart_checkout.py",
+    "measuredSec": 0.0071,
+    "simulatedSec": 2.1,
+    "timeSec": 2.11,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_cart_checkout.py::test_cart_with_zero_tax_region_and_coupon": {
+    "id": "sample_project/tests/test_integration_cart_checkout.py::test_cart_with_zero_tax_region_and_coupon",
+    "name": "test_cart_with_zero_tax_region_and_coupon",
+    "file": "sample_project/tests/test_integration_cart_checkout.py",
+    "measuredSec": 0.0084,
+    "simulatedSec": 3.4,
+    "timeSec": 3.41,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_cart_checkout.py::test_cart_grand_total_incorporating_shipping": {
+    "id": "sample_project/tests/test_integration_cart_checkout.py::test_cart_grand_total_incorporating_shipping",
+    "name": "test_cart_grand_total_incorporating_shipping",
+    "file": "sample_project/tests/test_integration_cart_checkout.py",
+    "measuredSec": 0.0072,
+    "simulatedSec": 3.8,
+    "timeSec": 3.81,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_cart_checkout.py::test_cart_item_update_edge_cases": {
+    "id": "sample_project/tests/test_integration_cart_checkout.py::test_cart_item_update_edge_cases",
+    "name": "test_cart_item_update_edge_cases",
+    "file": "sample_project/tests/test_integration_cart_checkout.py",
+    "measuredSec": 0.0084,
+    "simulatedSec": 2.5,
+    "timeSec": 2.51,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_order_lifecycle.py::test_order_limits_validation_success": {
+    "id": "sample_project/tests/test_integration_order_lifecycle.py::test_order_limits_validation_success",
+    "name": "test_order_limits_validation_success",
+    "file": "sample_project/tests/test_integration_order_lifecycle.py",
+    "measuredSec": 0.0079,
+    "simulatedSec": 3.1,
+    "timeSec": 3.11,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_order_lifecycle.py::test_order_limits_validation_excess": {
+    "id": "sample_project/tests/test_integration_order_lifecycle.py::test_order_limits_validation_excess",
+    "name": "test_order_limits_validation_excess",
+    "file": "sample_project/tests/test_integration_order_lifecycle.py",
+    "measuredSec": 0.0078,
+    "simulatedSec": 3.0,
+    "timeSec": 3.01,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_order_lifecycle.py::test_circular_dependency_validators_and_order": {
+    "id": "sample_project/tests/test_integration_order_lifecycle.py::test_circular_dependency_validators_and_order",
+    "name": "test_circular_dependency_validators_and_order",
+    "file": "sample_project/tests/test_integration_order_lifecycle.py",
+    "measuredSec": 0.0087,
+    "simulatedSec": 4.2,
+    "timeSec": 4.21,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_order_lifecycle.py::test_validate_and_reserve_success": {
+    "id": "sample_project/tests/test_integration_order_lifecycle.py::test_validate_and_reserve_success",
+    "name": "test_validate_and_reserve_success",
+    "file": "sample_project/tests/test_integration_order_lifecycle.py",
+    "measuredSec": 0.0077,
+    "simulatedSec": 3.5,
+    "timeSec": 3.51,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_order_lifecycle.py::test_validate_and_reserve_insufficient": {
+    "id": "sample_project/tests/test_integration_order_lifecycle.py::test_validate_and_reserve_insufficient",
+    "name": "test_validate_and_reserve_insufficient",
+    "file": "sample_project/tests/test_integration_order_lifecycle.py",
+    "measuredSec": 0.008,
+    "simulatedSec": 3.2,
+    "timeSec": 3.21,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_standard": {
+    "id": "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_standard",
+    "name": "test_calculate_order_totals_standard",
+    "file": "sample_project/tests/test_integration_order_lifecycle.py",
+    "measuredSec": 0.0083,
+    "simulatedSec": 3.8,
+    "timeSec": 3.81,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_with_express_shipping": {
+    "id": "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_with_express_shipping",
+    "name": "test_calculate_order_totals_with_express_shipping",
+    "file": "sample_project/tests/test_integration_order_lifecycle.py",
+    "measuredSec": 0.0072,
+    "simulatedSec": 4.0,
+    "timeSec": 4.01,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_order_lifecycle.py::test_cancel_order_nonexistent": {
+    "id": "sample_project/tests/test_integration_order_lifecycle.py::test_cancel_order_nonexistent",
+    "name": "test_cancel_order_nonexistent",
+    "file": "sample_project/tests/test_integration_order_lifecycle.py",
+    "measuredSec": 0.0082,
+    "simulatedSec": 3.0,
+    "timeSec": 3.01,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_order_lifecycle.py::test_fraud_check_integration": {
+    "id": "sample_project/tests/test_integration_order_lifecycle.py::test_fraud_check_integration",
+    "name": "test_fraud_check_integration",
+    "file": "sample_project/tests/test_integration_order_lifecycle.py",
+    "measuredSec": 0.0072,
+    "simulatedSec": 3.3,
+    "timeSec": 3.31,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_order_lifecycle.py::test_audit_logging_integration": {
+    "id": "sample_project/tests/test_integration_order_lifecycle.py::test_audit_logging_integration",
+    "name": "test_audit_logging_integration",
+    "file": "sample_project/tests/test_integration_order_lifecycle.py",
+    "measuredSec": 0.0067,
+    "simulatedSec": 3.2,
+    "timeSec": 3.21,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_pricing_discount.py::test_wholesale_pricing_bulk_break_computation": {
+    "id": "sample_project/tests/test_integration_pricing_discount.py::test_wholesale_pricing_bulk_break_computation",
+    "name": "test_wholesale_pricing_bulk_break_computation",
+    "file": "sample_project/tests/test_integration_pricing_discount.py",
+    "measuredSec": 0.0098,
+    "simulatedSec": 2.3,
+    "timeSec": 2.31,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_pricing_discount.py::test_markup_plus_tiered_discount": {
+    "id": "sample_project/tests/test_integration_pricing_discount.py::test_markup_plus_tiered_discount",
+    "name": "test_markup_plus_tiered_discount",
+    "file": "sample_project/tests/test_integration_pricing_discount.py",
+    "measuredSec": 0.008,
+    "simulatedSec": 2.7,
+    "timeSec": 2.71,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_pricing_discount.py::test_vip_user_discount_qualification": {
+    "id": "sample_project/tests/test_integration_pricing_discount.py::test_vip_user_discount_qualification",
+    "name": "test_vip_user_discount_qualification",
+    "file": "sample_project/tests/test_integration_pricing_discount.py",
+    "measuredSec": 0.0089,
+    "simulatedSec": 3.0,
+    "timeSec": 3.01,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_pricing_discount.py::test_normal_user_vip_coupon_rejection": {
+    "id": "sample_project/tests/test_integration_pricing_discount.py::test_normal_user_vip_coupon_rejection",
+    "name": "test_normal_user_vip_coupon_rejection",
+    "file": "sample_project/tests/test_integration_pricing_discount.py",
+    "measuredSec": 0.0083,
+    "simulatedSec": 2.5,
+    "timeSec": 2.51,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_pricing_discount.py::test_multiple_sku_bulk_pricing": {
+    "id": "sample_project/tests/test_integration_pricing_discount.py::test_multiple_sku_bulk_pricing",
+    "name": "test_multiple_sku_bulk_pricing",
+    "file": "sample_project/tests/test_integration_pricing_discount.py",
+    "measuredSec": 0.0081,
+    "simulatedSec": 3.2,
+    "timeSec": 3.21,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_pricing_discount.py::test_discount_does_not_exceed_cap": {
+    "id": "sample_project/tests/test_integration_pricing_discount.py::test_discount_does_not_exceed_cap",
+    "name": "test_discount_does_not_exceed_cap",
+    "file": "sample_project/tests/test_integration_pricing_discount.py",
+    "measuredSec": 0.0075,
+    "simulatedSec": 3.5,
+    "timeSec": 3.51,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_pricing_discount.py::test_pricing_and_currency_formatting": {
+    "id": "sample_project/tests/test_integration_pricing_discount.py::test_pricing_and_currency_formatting",
+    "name": "test_pricing_and_currency_formatting",
+    "file": "sample_project/tests/test_integration_pricing_discount.py",
+    "measuredSec": 0.0084,
+    "simulatedSec": 2.2,
+    "timeSec": 2.21,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_pricing_discount.py::test_holiday_sale_pricing_flow": {
+    "id": "sample_project/tests/test_integration_pricing_discount.py::test_holiday_sale_pricing_flow",
+    "name": "test_holiday_sale_pricing_flow",
+    "file": "sample_project/tests/test_integration_pricing_discount.py",
+    "measuredSec": 0.0078,
+    "simulatedSec": 2.9,
+    "timeSec": 2.91,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_pricing_discount.py::test_discount_on_zero_subtotal": {
+    "id": "sample_project/tests/test_integration_pricing_discount.py::test_discount_on_zero_subtotal",
+    "name": "test_discount_on_zero_subtotal",
+    "file": "sample_project/tests/test_integration_pricing_discount.py",
+    "measuredSec": 0.0081,
+    "simulatedSec": 2.0,
+    "timeSec": 2.01,
+    "passed": true
+  },
+  "sample_project/tests/test_integration_pricing_discount.py::test_invalid_coupon_fallback": {
+    "id": "sample_project/tests/test_integration_pricing_discount.py::test_invalid_coupon_fallback",
+    "name": "test_invalid_coupon_fallback",
+    "file": "sample_project/tests/test_integration_pricing_discount.py",
+    "measuredSec": 0.008,
+    "simulatedSec": 2.4,
+    "timeSec": 2.41,
+    "passed": true
+  },
+  "sample_project/tests/test_inventory.py::test_check_stock_available": {
+    "id": "sample_project/tests/test_inventory.py::test_check_stock_available",
+    "name": "test_check_stock_available",
+    "file": "sample_project/tests/test_inventory.py",
+    "measuredSec": 0.0093,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_inventory.py::test_check_stock_insufficient": {
+    "id": "sample_project/tests/test_inventory.py::test_check_stock_insufficient",
+    "name": "test_check_stock_insufficient",
+    "file": "sample_project/tests/test_inventory.py",
+    "measuredSec": 0.0083,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_inventory.py::test_check_stock_zero_or_negative": {
+    "id": "sample_project/tests/test_inventory.py::test_check_stock_zero_or_negative",
+    "name": "test_check_stock_zero_or_negative",
+    "file": "sample_project/tests/test_inventory.py",
+    "measuredSec": 0.0074,
+    "simulatedSec": 0.05,
+    "timeSec": 0.06,
+    "passed": true
+  },
+  "sample_project/tests/test_inventory.py::test_reserve_stock_success_and_release": {
+    "id": "sample_project/tests/test_inventory.py::test_reserve_stock_success_and_release",
+    "name": "test_reserve_stock_success_and_release",
+    "file": "sample_project/tests/test_inventory.py",
+    "measuredSec": 0.0084,
+    "simulatedSec": 0.15,
+    "timeSec": 0.16,
+    "passed": true
+  },
+  "sample_project/tests/test_inventory.py::test_reserve_stock_failure": {
+    "id": "sample_project/tests/test_inventory.py::test_reserve_stock_failure",
+    "name": "test_reserve_stock_failure",
+    "file": "sample_project/tests/test_inventory.py",
+    "measuredSec": 0.0068,
+    "simulatedSec": 0.1,
+    "timeSec": 0.11,
+    "passed": true
+  },
+  "sample_project/tests/test_inventory.py::test_release_stock_zero": {
+    "id": "sample_project/tests/test_inventory.py::test_release_stock_zero",
+    "name": "test_release_stock_zero",
+    "file": "sample_project/tests/test_inventory.py",
+    "measuredSec": 0.0077,
+    "simulatedSec": 0.05,
+    "timeSec": 0.06,
+    "passed": true
+  },
+  "sample_project/tests/test_inventory.py::test_reorder_threshold_not_reached": {
+    "id": "sample_project/tests/test_inventory.py::test_reorder_threshold_not_reached",
+    "name": "test_reorder_threshold_not_reached",
+    "file": "sample_project/tests/test_inventory.py",
+    "measuredSec": 0.0083,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_inventory.py::test_reorder_threshold_reached": {
+    "id": "sample_project/tests/test_inventory.py::test_reorder_threshold_reached",
+    "name": "test_reorder_threshold_reached",
+    "file": "sample_project/tests/test_inventory.py",
+    "measuredSec": 0.0071,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_notification.py::test_format_order_email": {
+    "id": "sample_project/tests/test_notification.py::test_format_order_email",
+    "name": "test_format_order_email",
+    "file": "sample_project/tests/test_notification.py",
+    "measuredSec": 0.009,
+    "simulatedSec": 0.12,
+    "timeSec": 0.13,
+    "passed": true
+  },
+  "sample_project/tests/test_notification.py::test_send_email_valid": {
+    "id": "sample_project/tests/test_notification.py::test_send_email_valid",
+    "name": "test_send_email_valid",
+    "file": "sample_project/tests/test_notification.py",
+    "measuredSec": 0.0087,
+    "simulatedSec": 0.1,
+    "timeSec": 0.11,
+    "passed": true
+  },
+  "sample_project/tests/test_notification.py::test_send_email_invalid": {
+    "id": "sample_project/tests/test_notification.py::test_send_email_invalid",
+    "name": "test_send_email_invalid",
+    "file": "sample_project/tests/test_notification.py",
+    "measuredSec": 0.0076,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_notification.py::test_send_sms_valid": {
+    "id": "sample_project/tests/test_notification.py::test_send_sms_valid",
+    "name": "test_send_sms_valid",
+    "file": "sample_project/tests/test_notification.py",
+    "measuredSec": 0.0078,
+    "simulatedSec": 0.1,
+    "timeSec": 0.11,
+    "passed": true
+  },
+  "sample_project/tests/test_notification.py::test_send_sms_invalid": {
+    "id": "sample_project/tests/test_notification.py::test_send_sms_invalid",
+    "name": "test_send_sms_invalid",
+    "file": "sample_project/tests/test_notification.py",
+    "measuredSec": 0.0086,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_notification.py::test_log_audit_event": {
+    "id": "sample_project/tests/test_notification.py::test_log_audit_event",
+    "name": "test_log_audit_event",
+    "file": "sample_project/tests/test_notification.py",
+    "measuredSec": 0.0083,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_payment.py::test_validate_card_valid": {
+    "id": "sample_project/tests/test_payment.py::test_validate_card_valid",
+    "name": "test_validate_card_valid",
+    "file": "sample_project/tests/test_payment.py",
+    "measuredSec": 0.0074,
+    "simulatedSec": 0.12,
+    "timeSec": 0.13,
+    "passed": true
+  },
+  "sample_project/tests/test_payment.py::test_validate_card_invalid_number": {
+    "id": "sample_project/tests/test_payment.py::test_validate_card_invalid_number",
+    "name": "test_validate_card_invalid_number",
+    "file": "sample_project/tests/test_payment.py",
+    "measuredSec": 0.0077,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_payment.py::test_validate_card_invalid_exp": {
+    "id": "sample_project/tests/test_payment.py::test_validate_card_invalid_exp",
+    "name": "test_validate_card_invalid_exp",
+    "file": "sample_project/tests/test_payment.py",
+    "measuredSec": 0.007,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_payment.py::test_validate_card_invalid_cvv": {
+    "id": "sample_project/tests/test_payment.py::test_validate_card_invalid_cvv",
+    "name": "test_validate_card_invalid_cvv",
+    "file": "sample_project/tests/test_payment.py",
+    "measuredSec": 0.0069,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_payment.py::test_check_fraud_risk_normal": {
+    "id": "sample_project/tests/test_payment.py::test_check_fraud_risk_normal",
+    "name": "test_check_fraud_risk_normal",
+    "file": "sample_project/tests/test_payment.py",
+    "measuredSec": 0.0085,
+    "simulatedSec": 0.15,
+    "timeSec": 0.16,
+    "passed": true
+  },
+  "sample_project/tests/test_payment.py::test_check_fraud_risk_high_amount": {
+    "id": "sample_project/tests/test_payment.py::test_check_fraud_risk_high_amount",
+    "name": "test_check_fraud_risk_high_amount",
+    "file": "sample_project/tests/test_payment.py",
+    "measuredSec": 0.0077,
+    "simulatedSec": 0.15,
+    "timeSec": 0.16,
+    "passed": true
+  },
+  "sample_project/tests/test_payment.py::test_process_charge_success": {
+    "id": "sample_project/tests/test_payment.py::test_process_charge_success",
+    "name": "test_process_charge_success",
+    "file": "sample_project/tests/test_payment.py",
+    "measuredSec": 0.0094,
+    "simulatedSec": 0.3,
+    "timeSec": 0.31,
+    "passed": true
+  },
+  "sample_project/tests/test_payment.py::test_issue_refund_success_and_fail": {
+    "id": "sample_project/tests/test_payment.py::test_issue_refund_success_and_fail",
+    "name": "test_issue_refund_success_and_fail",
+    "file": "sample_project/tests/test_payment.py",
+    "measuredSec": 0.0075,
+    "simulatedSec": 0.2,
+    "timeSec": 0.21,
+    "passed": true
+  },
+  "sample_project/tests/test_pricing.py::test_get_base_price_valid_items": {
+    "id": "sample_project/tests/test_pricing.py::test_get_base_price_valid_items",
+    "name": "test_get_base_price_valid_items",
+    "file": "sample_project/tests/test_pricing.py",
+    "measuredSec": 0.0087,
+    "simulatedSec": 0.1,
+    "timeSec": 0.11,
+    "passed": true
+  },
+  "sample_project/tests/test_pricing.py::test_get_base_price_invalid_item": {
+    "id": "sample_project/tests/test_pricing.py::test_get_base_price_invalid_item",
+    "name": "test_get_base_price_invalid_item",
+    "file": "sample_project/tests/test_pricing.py",
+    "measuredSec": 0.0077,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_pricing.py::test_calculate_bulk_price_small_qty": {
+    "id": "sample_project/tests/test_pricing.py::test_calculate_bulk_price_small_qty",
+    "name": "test_calculate_bulk_price_small_qty",
+    "file": "sample_project/tests/test_pricing.py",
+    "measuredSec": 0.0071,
+    "simulatedSec": 0.12,
+    "timeSec": 0.13,
+    "passed": true
+  },
+  "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_10": {
+    "id": "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_10",
+    "name": "test_calculate_bulk_price_tier_10",
+    "file": "sample_project/tests/test_pricing.py",
+    "measuredSec": 0.007,
+    "simulatedSec": 0.12,
+    "timeSec": 0.13,
+    "passed": true
+  },
+  "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_20": {
+    "id": "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_20",
+    "name": "test_calculate_bulk_price_tier_20",
+    "file": "sample_project/tests/test_pricing.py",
+    "measuredSec": 0.0072,
+    "simulatedSec": 0.12,
+    "timeSec": 0.13,
+    "passed": true
+  },
+  "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_50": {
+    "id": "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_50",
+    "name": "test_calculate_bulk_price_tier_50",
+    "file": "sample_project/tests/test_pricing.py",
+    "measuredSec": 0.0077,
+    "simulatedSec": 0.15,
+    "timeSec": 0.16,
+    "passed": true
+  },
+  "sample_project/tests/test_pricing.py::test_apply_markup_fraction": {
+    "id": "sample_project/tests/test_pricing.py::test_apply_markup_fraction",
+    "name": "test_apply_markup_fraction",
+    "file": "sample_project/tests/test_pricing.py",
+    "measuredSec": 0.0075,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_pricing.py::test_apply_markup_percentage": {
+    "id": "sample_project/tests/test_pricing.py::test_apply_markup_percentage",
+    "name": "test_apply_markup_percentage",
+    "file": "sample_project/tests/test_pricing.py",
+    "measuredSec": 0.0076,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_shipping.py::test_calculate_shipping_weight_single": {
+    "id": "sample_project/tests/test_shipping.py::test_calculate_shipping_weight_single",
+    "name": "test_calculate_shipping_weight_single",
+    "file": "sample_project/tests/test_shipping.py",
+    "measuredSec": 0.0102,
+    "simulatedSec": 0.12,
+    "timeSec": 0.13,
+    "passed": true
+  },
+  "sample_project/tests/test_shipping.py::test_calculate_shipping_weight_multiple": {
+    "id": "sample_project/tests/test_shipping.py::test_calculate_shipping_weight_multiple",
+    "name": "test_calculate_shipping_weight_multiple",
+    "file": "sample_project/tests/test_shipping.py",
+    "measuredSec": 0.0072,
+    "simulatedSec": 0.15,
+    "timeSec": 0.16,
+    "passed": true
+  },
+  "sample_project/tests/test_shipping.py::test_get_shipping_tier_express": {
+    "id": "sample_project/tests/test_shipping.py::test_get_shipping_tier_express",
+    "name": "test_get_shipping_tier_express",
+    "file": "sample_project/tests/test_shipping.py",
+    "measuredSec": 0.0095,
+    "simulatedSec": 0.06,
+    "timeSec": 0.07,
+    "passed": true
+  },
+  "sample_project/tests/test_shipping.py::test_get_shipping_tier_by_weight": {
+    "id": "sample_project/tests/test_shipping.py::test_get_shipping_tier_by_weight",
+    "name": "test_get_shipping_tier_by_weight",
+    "file": "sample_project/tests/test_shipping.py",
+    "measuredSec": 0.0094,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_shipping.py::test_estimate_delivery_days_standard": {
+    "id": "sample_project/tests/test_shipping.py::test_estimate_delivery_days_standard",
+    "name": "test_estimate_delivery_days_standard",
+    "file": "sample_project/tests/test_shipping.py",
+    "measuredSec": 0.0091,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_shipping.py::test_estimate_delivery_days_express": {
+    "id": "sample_project/tests/test_shipping.py::test_estimate_delivery_days_express",
+    "name": "test_estimate_delivery_days_express",
+    "file": "sample_project/tests/test_shipping.py",
+    "measuredSec": 0.0096,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_shipping.py::test_calculate_shipping_cost_domestic_light": {
+    "id": "sample_project/tests/test_shipping.py::test_calculate_shipping_cost_domestic_light",
+    "name": "test_calculate_shipping_cost_domestic_light",
+    "file": "sample_project/tests/test_shipping.py",
+    "measuredSec": 0.0096,
+    "simulatedSec": 0.18,
+    "timeSec": 0.19,
+    "passed": true
+  },
+  "sample_project/tests/test_shipping.py::test_calculate_shipping_cost_international": {
+    "id": "sample_project/tests/test_shipping.py::test_calculate_shipping_cost_international",
+    "name": "test_calculate_shipping_cost_international",
+    "file": "sample_project/tests/test_shipping.py",
+    "measuredSec": 0.0107,
+    "simulatedSec": 0.2,
+    "timeSec": 0.21,
+    "passed": true
+  },
+  "sample_project/tests/test_tax.py::test_get_tax_rate_regions": {
+    "id": "sample_project/tests/test_tax.py::test_get_tax_rate_regions",
+    "name": "test_get_tax_rate_regions",
+    "file": "sample_project/tests/test_tax.py",
+    "measuredSec": 0.0097,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_tax.py::test_get_tax_rate_default_and_case": {
+    "id": "sample_project/tests/test_tax.py::test_get_tax_rate_default_and_case",
+    "name": "test_get_tax_rate_default_and_case",
+    "file": "sample_project/tests/test_tax.py",
+    "measuredSec": 0.0082,
+    "simulatedSec": 0.06,
+    "timeSec": 0.07,
+    "passed": true
+  },
+  "sample_project/tests/test_tax.py::test_calculate_sales_tax_ca": {
+    "id": "sample_project/tests/test_tax.py::test_calculate_sales_tax_ca",
+    "name": "test_calculate_sales_tax_ca",
+    "file": "sample_project/tests/test_tax.py",
+    "measuredSec": 0.0093,
+    "simulatedSec": 0.12,
+    "timeSec": 0.13,
+    "passed": true
+  },
+  "sample_project/tests/test_tax.py::test_calculate_sales_tax_zero_or_negative": {
+    "id": "sample_project/tests/test_tax.py::test_calculate_sales_tax_zero_or_negative",
+    "name": "test_calculate_sales_tax_zero_or_negative",
+    "file": "sample_project/tests/test_tax.py",
+    "measuredSec": 0.0082,
+    "simulatedSec": 0.05,
+    "timeSec": 0.06,
+    "passed": true
+  },
+  "sample_project/tests/test_tax.py::test_calculate_sales_tax_eu": {
+    "id": "sample_project/tests/test_tax.py::test_calculate_sales_tax_eu",
+    "name": "test_calculate_sales_tax_eu",
+    "file": "sample_project/tests/test_tax.py",
+    "measuredSec": 0.0083,
+    "simulatedSec": 0.1,
+    "timeSec": 0.11,
+    "passed": true
+  },
+  "sample_project/tests/test_tax.py::test_calculate_sales_tax_fractional": {
+    "id": "sample_project/tests/test_tax.py::test_calculate_sales_tax_fractional",
+    "name": "test_calculate_sales_tax_fractional",
+    "file": "sample_project/tests/test_tax.py",
+    "measuredSec": 0.0076,
+    "simulatedSec": 0.12,
+    "timeSec": 0.13,
+    "passed": true
+  },
+  "sample_project/tests/test_tax.py::test_apply_tax_exemptions_exempt": {
+    "id": "sample_project/tests/test_tax.py::test_apply_tax_exemptions_exempt",
+    "name": "test_apply_tax_exemptions_exempt",
+    "file": "sample_project/tests/test_tax.py",
+    "measuredSec": 0.0076,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_tax.py::test_apply_tax_exemptions_not_exempt": {
+    "id": "sample_project/tests/test_tax.py::test_apply_tax_exemptions_not_exempt",
+    "name": "test_apply_tax_exemptions_not_exempt",
+    "file": "sample_project/tests/test_tax.py",
+    "measuredSec": 0.0072,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_user.py::test_get_user_profile_exists": {
+    "id": "sample_project/tests/test_user.py::test_get_user_profile_exists",
+    "name": "test_get_user_profile_exists",
+    "file": "sample_project/tests/test_user.py",
+    "measuredSec": 0.0089,
+    "simulatedSec": 0.15,
+    "timeSec": 0.16,
+    "passed": true
+  },
+  "sample_project/tests/test_user.py::test_get_user_profile_missing": {
+    "id": "sample_project/tests/test_user.py::test_get_user_profile_missing",
+    "name": "test_get_user_profile_missing",
+    "file": "sample_project/tests/test_user.py",
+    "measuredSec": 0.008,
+    "simulatedSec": 0.1,
+    "timeSec": 0.11,
+    "passed": true
+  },
+  "sample_project/tests/test_user.py::test_calculate_loyalty_tier_platinum": {
+    "id": "sample_project/tests/test_user.py::test_calculate_loyalty_tier_platinum",
+    "name": "test_calculate_loyalty_tier_platinum",
+    "file": "sample_project/tests/test_user.py",
+    "measuredSec": 0.0081,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_user.py::test_calculate_loyalty_tier_gold": {
+    "id": "sample_project/tests/test_user.py::test_calculate_loyalty_tier_gold",
+    "name": "test_calculate_loyalty_tier_gold",
+    "file": "sample_project/tests/test_user.py",
+    "measuredSec": 0.008,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_user.py::test_calculate_loyalty_tier_silver_bronze": {
+    "id": "sample_project/tests/test_user.py::test_calculate_loyalty_tier_silver_bronze",
+    "name": "test_calculate_loyalty_tier_silver_bronze",
+    "file": "sample_project/tests/test_user.py",
+    "measuredSec": 0.0083,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_user.py::test_can_apply_vip_discount": {
+    "id": "sample_project/tests/test_user.py::test_can_apply_vip_discount",
+    "name": "test_can_apply_vip_discount",
+    "file": "sample_project/tests/test_user.py",
+    "measuredSec": 0.0069,
+    "simulatedSec": 0.12,
+    "timeSec": 0.13,
+    "passed": true
+  },
+  "sample_project/tests/test_utils.py::test_round_currency_standard": {
+    "id": "sample_project/tests/test_utils.py::test_round_currency_standard",
+    "name": "test_round_currency_standard",
+    "file": "sample_project/tests/test_utils.py",
+    "measuredSec": 0.0087,
+    "simulatedSec": 0.15,
+    "timeSec": 0.16,
+    "passed": true
+  },
+  "sample_project/tests/test_utils.py::test_round_currency_integer": {
+    "id": "sample_project/tests/test_utils.py::test_round_currency_integer",
+    "name": "test_round_currency_integer",
+    "file": "sample_project/tests/test_utils.py",
+    "measuredSec": 0.0068,
+    "simulatedSec": 0.1,
+    "timeSec": 0.11,
+    "passed": true
+  },
+  "sample_project/tests/test_utils.py::test_round_currency_half_up": {
+    "id": "sample_project/tests/test_utils.py::test_round_currency_half_up",
+    "name": "test_round_currency_half_up",
+    "file": "sample_project/tests/test_utils.py",
+    "measuredSec": 0.0076,
+    "simulatedSec": 0.12,
+    "timeSec": 0.13,
+    "passed": true
+  },
+  "sample_project/tests/test_utils.py::test_clamp_within_bounds": {
+    "id": "sample_project/tests/test_utils.py::test_clamp_within_bounds",
+    "name": "test_clamp_within_bounds",
+    "file": "sample_project/tests/test_utils.py",
+    "measuredSec": 0.009,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_utils.py::test_clamp_below_low": {
+    "id": "sample_project/tests/test_utils.py::test_clamp_below_low",
+    "name": "test_clamp_below_low",
+    "file": "sample_project/tests/test_utils.py",
+    "measuredSec": 0.0085,
+    "simulatedSec": 0.05,
+    "timeSec": 0.06,
+    "passed": true
+  },
+  "sample_project/tests/test_utils.py::test_clamp_above_high": {
+    "id": "sample_project/tests/test_utils.py::test_clamp_above_high",
+    "name": "test_clamp_above_high",
+    "file": "sample_project/tests/test_utils.py",
+    "measuredSec": 0.0084,
+    "simulatedSec": 0.05,
+    "timeSec": 0.06,
+    "passed": true
+  },
+  "sample_project/tests/test_utils.py::test_hash_string_deterministic": {
+    "id": "sample_project/tests/test_utils.py::test_hash_string_deterministic",
+    "name": "test_hash_string_deterministic",
+    "file": "sample_project/tests/test_utils.py",
+    "measuredSec": 0.0086,
+    "simulatedSec": 0.2,
+    "timeSec": 0.21,
+    "passed": true
+  },
+  "sample_project/tests/test_utils.py::test_format_currency_usd_and_eur": {
+    "id": "sample_project/tests/test_utils.py::test_format_currency_usd_and_eur",
+    "name": "test_format_currency_usd_and_eur",
+    "file": "sample_project/tests/test_utils.py",
+    "measuredSec": 0.0073,
+    "simulatedSec": 0.15,
+    "timeSec": 0.16,
+    "passed": true
+  },
+  "sample_project/tests/test_validators.py::test_validate_email_valid": {
+    "id": "sample_project/tests/test_validators.py::test_validate_email_valid",
+    "name": "test_validate_email_valid",
+    "file": "sample_project/tests/test_validators.py",
+    "measuredSec": 0.0083,
+    "simulatedSec": 0.12,
+    "timeSec": 0.13,
+    "passed": true
+  },
+  "sample_project/tests/test_validators.py::test_validate_email_invalid": {
+    "id": "sample_project/tests/test_validators.py::test_validate_email_invalid",
+    "name": "test_validate_email_invalid",
+    "file": "sample_project/tests/test_validators.py",
+    "measuredSec": 0.0085,
+    "simulatedSec": 0.08,
+    "timeSec": 0.09,
+    "passed": true
+  },
+  "sample_project/tests/test_validators.py::test_validate_sku_valid": {
+    "id": "sample_project/tests/test_validators.py::test_validate_sku_valid",
+    "name": "test_validate_sku_valid",
+    "file": "sample_project/tests/test_validators.py",
+    "measuredSec": 0.0081,
+    "simulatedSec": 0.1,
+    "timeSec": 0.11,
+    "passed": true
+  },
+  "sample_project/tests/test_validators.py::test_validate_sku_invalid": {
+    "id": "sample_project/tests/test_validators.py::test_validate_sku_invalid",
+    "name": "test_validate_sku_invalid",
+    "file": "sample_project/tests/test_validators.py",
+    "measuredSec": 0.0077,
+    "simulatedSec": 0.06,
+    "timeSec": 0.07,
+    "passed": true
+  },
+  "sample_project/tests/test_validators.py::test_validate_quantity_valid": {
+    "id": "sample_project/tests/test_validators.py::test_validate_quantity_valid",
+    "name": "test_validate_quantity_valid",
+    "file": "sample_project/tests/test_validators.py",
+    "measuredSec": 0.0083,
+    "simulatedSec": 0.05,
+    "timeSec": 0.06,
+    "passed": true
+  },
+  "sample_project/tests/test_validators.py::test_validate_quantity_invalid": {
+    "id": "sample_project/tests/test_validators.py::test_validate_quantity_invalid",
+    "name": "test_validate_quantity_invalid",
+    "file": "sample_project/tests/test_validators.py",
+    "measuredSec": 0.0085,
+    "simulatedSec": 0.05,
+    "timeSec": 0.06,
+    "passed": true
+  },
+  "sample_project/tests/test_validators.py::test_validate_order_valid_structure": {
+    "id": "sample_project/tests/test_validators.py::test_validate_order_valid_structure",
+    "name": "test_validate_order_valid_structure",
+    "file": "sample_project/tests/test_validators.py",
+    "measuredSec": 0.0078,
+    "simulatedSec": 0.25,
+    "timeSec": 0.26,
+    "passed": true
+  },
+  "sample_project/tests/test_validators.py::test_validate_order_empty_or_invalid": {
+    "id": "sample_project/tests/test_validators.py::test_validate_order_empty_or_invalid",
+    "name": "test_validate_order_empty_or_invalid",
+    "file": "sample_project/tests/test_validators.py",
+    "measuredSec": 0.0071,
+    "simulatedSec": 0.15,
+    "timeSec": 0.16,
+    "passed": true
+  }
+}

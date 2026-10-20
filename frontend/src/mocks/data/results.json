@@ -1,0 +1,39 @@
+{
+  "_comment": "PLACEHOLDER VALUES, replace with real experiment output.",
+  "headline": {
+    "testReductionPct": 68.4,
+    "timeSavedPct": 74.2,
+    "bugDetectionPct": 94.6
+  },
+  "detectionVsBudget": [
+    { "budgetSec": 5, "ours": 42.5, "dependencyOnly": 26.0, "random": 14.2, "runAll": 100.0 },
+    { "budgetSec": 10, "ours": 68.2, "dependencyOnly": 44.5, "random": 24.8, "runAll": 100.0 },
+    { "budgetSec": 15, "ours": 81.0, "dependencyOnly": 58.1, "random": 35.0, "runAll": 100.0 },
+    { "budgetSec": 20, "ours": 88.5, "dependencyOnly": 67.4, "random": 44.2, "runAll": 100.0 },
+    { "budgetSec": 25, "ours": 92.1, "dependencyOnly": 73.0, "random": 52.6, "runAll": 100.0 },
+    { "budgetSec": 30, "ours": 94.6, "dependencyOnly": 77.8, "random": 59.4, "runAll": 100.0 },
+    { "budgetSec": 45, "ours": 97.2, "dependencyOnly": 84.5, "random": 71.0, "runAll": 100.0 },
+    { "budgetSec": 60, "ours": 98.8, "dependencyOnly": 89.2, "random": 79.5, "runAll": 100.0 },
+    { "budgetSec": 90, "ours": 99.5, "dependencyOnly": 94.0, "random": 88.0, "runAll": 100.0 },
+    { "budgetSec": 120, "ours": 100.0, "dependencyOnly": 97.5, "random": 94.2, "runAll": 100.0 }
+  ],
+  "strategies": [
+    { "name": "Ours (ML + Knapsack)", "testsRun": 8, "timeSec": 24.6, "bugsCaughtPct": 94.6 },
+    { "name": "Dependency-Only", "testsRun": 14, "timeSec": 48.2, "bugsCaughtPct": 77.8 },
+    { "name": "Greedy Heuristic", "testsRun": 7, "timeSec": 22.1, "bugsCaughtPct": 88.2 },
+    { "name": "Random Selection", "testsRun": 8, "timeSec": 25.0, "bugsCaughtPct": 59.4 },
+    { "name": "Run-All Suite", "testsRun": 30, "timeSec": 155.0, "bugsCaughtPct": 100.0 }
+  ],
+  "dataset": {
+    "mutants": 142,
+    "tests": 30,
+    "rows": 4260,
+    "mutationTypes": [
+      { "type": "Comparison Replacement", "count": 48 },
+      { "type": "Arithmetic Mutation", "count": 36 },
+      { "type": "Boolean Inversion", "count": 28 },
+      { "type": "Constant Perturbation", "count": 18 },
+      { "type": "Statement Deletion", "count": 12 }
+    ]
+  }
+}

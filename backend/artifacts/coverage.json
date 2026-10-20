@@ -1,0 +1,1592 @@
+{
+  "totalTests": 136,
+  "totalFunctions": 53,
+  "coveredFunctions": 53,
+  "suiteTimeSec": 369.64,
+  "testToFunctions": {
+    "sample_project/tests/test_auth.py::test_hash_password_success": [
+      "auth.hash_password",
+      "utils.hash_string"
+    ],
+    "sample_project/tests/test_auth.py::test_hash_password_too_short": [
+      "auth.hash_password"
+    ],
+    "sample_project/tests/test_auth.py::test_verify_token_user": [
+      "auth.verify_token"
+    ],
+    "sample_project/tests/test_auth.py::test_verify_token_invalid": [
+      "auth.verify_token"
+    ],
+    "sample_project/tests/test_auth.py::test_check_permission_admin": [
+      "auth.check_permission"
+    ],
+    "sample_project/tests/test_auth.py::test_check_permission_user": [
+      "auth.check_permission"
+    ],
+    "sample_project/tests/test_cart.py::test_add_item_new": [
+      "cart.add_item"
+    ],
+    "sample_project/tests/test_cart.py::test_add_item_existing": [
+      "cart.add_item"
+    ],
+    "sample_project/tests/test_cart.py::test_add_item_invalid_quantity": [
+      "cart.add_item"
+    ],
+    "sample_project/tests/test_cart.py::test_remove_item": [
+      "cart.remove_item"
+    ],
+    "sample_project/tests/test_cart.py::test_apply_coupon_valid": [
+      "cart.apply_coupon",
+      "discount.validate_coupon"
+    ],
+    "sample_project/tests/test_cart.py::test_apply_coupon_invalid": [
+      "cart.apply_coupon",
+      "discount.validate_coupon"
+    ],
+    "sample_project/tests/test_cart.py::test_calculate_subtotal": [
+      "cart.calculate_subtotal",
+      "pricing.get_base_price",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_cart.py::test_calculate_total_basic": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "pricing.get_base_price",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "utils.clamp",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_cart.py::test_calculate_total_with_coupon": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "pricing.get_base_price",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "utils.clamp",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_cart.py::test_calculate_total_empty": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.compute_final_discount",
+      "tax.calculate_sales_tax",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_discount.py::test_validate_coupon_valid_pct": [
+      "discount.validate_coupon"
+    ],
+    "sample_project/tests/test_discount.py::test_validate_coupon_valid_flat": [
+      "discount.validate_coupon"
+    ],
+    "sample_project/tests/test_discount.py::test_validate_coupon_invalid_or_empty": [
+      "discount.validate_coupon"
+    ],
+    "sample_project/tests/test_discount.py::test_calculate_bundle_discount_tiers": [
+      "discount.calculate_bundle_discount",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_discount.py::test_apply_seasonal_discount_holiday": [
+      "discount.apply_seasonal_discount",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_discount.py::test_apply_seasonal_discount_summer": [
+      "discount.apply_seasonal_discount",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_discount.py::test_apply_seasonal_discount_other_months": [
+      "discount.apply_seasonal_discount"
+    ],
+    "sample_project/tests/test_discount.py::test_compute_final_discount_with_coupon": [
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "utils.clamp",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_discount.py::test_compute_final_discount_coupon_min_spend_not_met": [
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "utils.clamp",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_discount.py::test_compute_final_discount_clamped_to_70_pct": [
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "utils.clamp",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "inventory.check_stock",
+      "inventory.reserve_stock",
+      "notification.format_order_email",
+      "notification.log_audit_event",
+      "notification.send_email",
+      "order.calculate_order_totals",
+      "order.check_limits",
+      "order.place_order",
+      "order.validate_and_reserve",
+      "payment.check_fraud_risk",
+      "payment.process_charge",
+      "payment.validate_card",
+      "pricing.get_base_price",
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "user.calculate_loyalty_tier",
+      "user.get_user_profile",
+      "utils.clamp",
+      "utils.format_currency",
+      "utils.hash_string",
+      "utils.round_currency",
+      "validators.validate_order",
+      "validators.validate_quantity",
+      "validators.validate_sku"
+    ],
+    "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "inventory.check_stock",
+      "inventory.reserve_stock",
+      "notification.format_order_email",
+      "notification.log_audit_event",
+      "notification.send_email",
+      "order.calculate_order_totals",
+      "order.check_limits",
+      "order.place_order",
+      "order.validate_and_reserve",
+      "payment.check_fraud_risk",
+      "payment.process_charge",
+      "payment.validate_card",
+      "pricing.get_base_price",
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "user.calculate_loyalty_tier",
+      "user.get_user_profile",
+      "utils.clamp",
+      "utils.format_currency",
+      "utils.hash_string",
+      "utils.round_currency",
+      "validators.validate_order",
+      "validators.validate_quantity",
+      "validators.validate_sku"
+    ],
+    "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "inventory.check_stock",
+      "inventory.release_stock",
+      "inventory.reserve_stock",
+      "notification.format_order_email",
+      "notification.log_audit_event",
+      "notification.send_email",
+      "order.calculate_order_totals",
+      "order.cancel_order",
+      "order.check_limits",
+      "order.place_order",
+      "order.validate_and_reserve",
+      "payment.check_fraud_risk",
+      "payment.issue_refund",
+      "payment.process_charge",
+      "payment.validate_card",
+      "pricing.get_base_price",
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "user.calculate_loyalty_tier",
+      "user.get_user_profile",
+      "utils.clamp",
+      "utils.format_currency",
+      "utils.hash_string",
+      "utils.round_currency",
+      "validators.validate_order",
+      "validators.validate_quantity",
+      "validators.validate_sku"
+    ],
+    "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "order.calculate_order_totals",
+      "order.check_limits",
+      "order.place_order",
+      "payment.check_fraud_risk",
+      "pricing.get_base_price",
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "user.get_user_profile",
+      "utils.clamp",
+      "utils.round_currency",
+      "validators.validate_order",
+      "validators.validate_quantity",
+      "validators.validate_sku"
+    ],
+    "sample_project/tests/test_e2e_orders.py::test_e2e_empty_cart_error": [
+      "order.place_order"
+    ],
+    "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "inventory.check_stock",
+      "order.calculate_order_totals",
+      "order.check_limits",
+      "order.place_order",
+      "order.validate_and_reserve",
+      "payment.check_fraud_risk",
+      "pricing.get_base_price",
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "user.calculate_loyalty_tier",
+      "user.get_user_profile",
+      "utils.clamp",
+      "utils.round_currency",
+      "validators.validate_order",
+      "validators.validate_quantity",
+      "validators.validate_sku"
+    ],
+    "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "inventory.check_stock",
+      "inventory.release_stock",
+      "inventory.reserve_stock",
+      "order.calculate_order_totals",
+      "order.check_limits",
+      "order.place_order",
+      "order.validate_and_reserve",
+      "payment.check_fraud_risk",
+      "payment.process_charge",
+      "payment.validate_card",
+      "pricing.get_base_price",
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "user.calculate_loyalty_tier",
+      "user.get_user_profile",
+      "utils.clamp",
+      "utils.round_currency",
+      "validators.validate_order",
+      "validators.validate_quantity",
+      "validators.validate_sku"
+    ],
+    "sample_project/tests/test_e2e_orders.py::test_e2e_sales_report_aggregation": [
+      "report.generate_sales_summary",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_e2e_orders.py::test_e2e_profit_margin_reporting": [
+      "report.calculate_margin_report",
+      "report.generate_sales_summary",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_e2e_orders.py::test_e2e_tax_ledger_reporting": [
+      "report.export_tax_ledger",
+      "tax.get_tax_rate",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "inventory.check_stock",
+      "inventory.reserve_stock",
+      "notification.format_order_email",
+      "notification.log_audit_event",
+      "notification.send_email",
+      "order.calculate_order_totals",
+      "order.check_limits",
+      "order.place_order",
+      "order.validate_and_reserve",
+      "payment.check_fraud_risk",
+      "payment.process_charge",
+      "payment.validate_card",
+      "pricing.get_base_price",
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "user.calculate_loyalty_tier",
+      "user.get_user_profile",
+      "utils.clamp",
+      "utils.format_currency",
+      "utils.hash_string",
+      "utils.round_currency",
+      "validators.validate_order",
+      "validators.validate_quantity",
+      "validators.validate_sku"
+    ],
+    "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "inventory.check_stock",
+      "inventory.reserve_stock",
+      "notification.format_order_email",
+      "notification.log_audit_event",
+      "notification.send_email",
+      "order.calculate_order_totals",
+      "order.check_limits",
+      "order.place_order",
+      "order.validate_and_reserve",
+      "payment.check_fraud_risk",
+      "payment.process_charge",
+      "payment.validate_card",
+      "pricing.get_base_price",
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "user.calculate_loyalty_tier",
+      "user.get_user_profile",
+      "utils.clamp",
+      "utils.format_currency",
+      "utils.hash_string",
+      "utils.round_currency",
+      "validators.validate_order",
+      "validators.validate_quantity",
+      "validators.validate_sku"
+    ],
+    "sample_project/tests/test_integration_cart_checkout.py::test_cart_item_addition_and_subtotal_consistency": [
+      "cart.add_item",
+      "cart.calculate_subtotal",
+      "pricing.get_base_price",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_integration_cart_checkout.py::test_cart_removal_and_recalculation": [
+      "cart.add_item",
+      "cart.calculate_subtotal",
+      "cart.remove_item",
+      "pricing.get_base_price",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_integration_cart_checkout.py::test_cart_checkout_with_tiered_discounts_and_tax": [
+      "cart.add_item",
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "pricing.get_base_price",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "utils.clamp",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_integration_cart_checkout.py::test_cart_coupon_application_and_total": [
+      "cart.add_item",
+      "cart.apply_coupon",
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "pricing.get_base_price",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "utils.clamp",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_integration_cart_checkout.py::test_shipping_cost_estimation_for_multi_item_cart": [
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_integration_cart_checkout.py::test_shipping_cost_express_air": [
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_integration_cart_checkout.py::test_inventory_check_matches_cart_items": [
+      "inventory.check_stock"
+    ],
+    "sample_project/tests/test_integration_cart_checkout.py::test_cart_with_zero_tax_region_and_coupon": [
+      "cart.apply_coupon",
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "pricing.get_base_price",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "utils.clamp",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_integration_cart_checkout.py::test_cart_grand_total_incorporating_shipping": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "pricing.get_base_price",
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "utils.clamp",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_integration_cart_checkout.py::test_cart_item_update_edge_cases": [
+      "cart.add_item",
+      "cart.calculate_subtotal",
+      "pricing.get_base_price",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_integration_order_lifecycle.py::test_order_limits_validation_success": [
+      "order.check_limits",
+      "validators.validate_order",
+      "validators.validate_quantity",
+      "validators.validate_sku"
+    ],
+    "sample_project/tests/test_integration_order_lifecycle.py::test_order_limits_validation_excess": [
+      "order.check_limits"
+    ],
+    "sample_project/tests/test_integration_order_lifecycle.py::test_circular_dependency_validators_and_order": [
+      "order.check_limits",
+      "validators.validate_order",
+      "validators.validate_quantity",
+      "validators.validate_sku"
+    ],
+    "sample_project/tests/test_integration_order_lifecycle.py::test_validate_and_reserve_success": [
+      "inventory.check_stock",
+      "inventory.reserve_stock",
+      "order.validate_and_reserve"
+    ],
+    "sample_project/tests/test_integration_order_lifecycle.py::test_validate_and_reserve_insufficient": [
+      "inventory.check_stock",
+      "order.validate_and_reserve"
+    ],
+    "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_standard": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "order.calculate_order_totals",
+      "pricing.get_base_price",
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "utils.clamp",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_with_express_shipping": [
+      "cart.calculate_subtotal",
+      "cart.calculate_total",
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "order.calculate_order_totals",
+      "pricing.get_base_price",
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "utils.clamp",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_integration_order_lifecycle.py::test_cancel_order_nonexistent": [
+      "order.cancel_order"
+    ],
+    "sample_project/tests/test_integration_order_lifecycle.py::test_fraud_check_integration": [
+      "payment.check_fraud_risk"
+    ],
+    "sample_project/tests/test_integration_order_lifecycle.py::test_audit_logging_integration": [
+      "notification.log_audit_event"
+    ],
+    "sample_project/tests/test_integration_pricing_discount.py::test_wholesale_pricing_bulk_break_computation": [
+      "pricing.calculate_bulk_price",
+      "pricing.get_base_price",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_integration_pricing_discount.py::test_markup_plus_tiered_discount": [
+      "discount.calculate_bundle_discount",
+      "pricing.apply_markup",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_integration_pricing_discount.py::test_vip_user_discount_qualification": [
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "user.calculate_loyalty_tier",
+      "user.can_apply_vip_discount",
+      "user.get_user_profile",
+      "utils.clamp",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_integration_pricing_discount.py::test_normal_user_vip_coupon_rejection": [
+      "user.calculate_loyalty_tier",
+      "user.can_apply_vip_discount",
+      "user.get_user_profile"
+    ],
+    "sample_project/tests/test_integration_pricing_discount.py::test_multiple_sku_bulk_pricing": [
+      "pricing.calculate_bulk_price",
+      "pricing.get_base_price",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_integration_pricing_discount.py::test_discount_does_not_exceed_cap": [
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "utils.clamp",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_integration_pricing_discount.py::test_pricing_and_currency_formatting": [
+      "pricing.get_base_price",
+      "utils.format_currency",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_integration_pricing_discount.py::test_holiday_sale_pricing_flow": [
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "utils.clamp",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_integration_pricing_discount.py::test_discount_on_zero_subtotal": [
+      "discount.compute_final_discount"
+    ],
+    "sample_project/tests/test_integration_pricing_discount.py::test_invalid_coupon_fallback": [
+      "discount.apply_seasonal_discount",
+      "discount.calculate_bundle_discount",
+      "discount.compute_final_discount",
+      "discount.validate_coupon",
+      "utils.clamp",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_inventory.py::test_check_stock_available": [
+      "inventory.check_stock"
+    ],
+    "sample_project/tests/test_inventory.py::test_check_stock_insufficient": [
+      "inventory.check_stock"
+    ],
+    "sample_project/tests/test_inventory.py::test_check_stock_zero_or_negative": [
+      "inventory.check_stock"
+    ],
+    "sample_project/tests/test_inventory.py::test_reserve_stock_success_and_release": [
+      "inventory.check_stock",
+      "inventory.release_stock",
+      "inventory.reserve_stock"
+    ],
+    "sample_project/tests/test_inventory.py::test_reserve_stock_failure": [
+      "inventory.check_stock",
+      "inventory.reserve_stock"
+    ],
+    "sample_project/tests/test_inventory.py::test_release_stock_zero": [
+      "inventory.release_stock"
+    ],
+    "sample_project/tests/test_inventory.py::test_reorder_threshold_not_reached": [
+      "inventory.reorder_threshold_reached"
+    ],
+    "sample_project/tests/test_inventory.py::test_reorder_threshold_reached": [
+      "inventory.reorder_threshold_reached"
+    ],
+    "sample_project/tests/test_notification.py::test_format_order_email": [
+      "notification.format_order_email",
+      "utils.format_currency",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_notification.py::test_send_email_valid": [
+      "notification.log_audit_event",
+      "notification.send_email"
+    ],
+    "sample_project/tests/test_notification.py::test_send_email_invalid": [
+      "notification.send_email"
+    ],
+    "sample_project/tests/test_notification.py::test_send_sms_valid": [
+      "notification.log_audit_event",
+      "notification.send_sms"
+    ],
+    "sample_project/tests/test_notification.py::test_send_sms_invalid": [
+      "notification.send_sms"
+    ],
+    "sample_project/tests/test_notification.py::test_log_audit_event": [
+      "notification.log_audit_event"
+    ],
+    "sample_project/tests/test_payment.py::test_validate_card_valid": [
+      "payment.validate_card"
+    ],
+    "sample_project/tests/test_payment.py::test_validate_card_invalid_number": [
+      "payment.validate_card"
+    ],
+    "sample_project/tests/test_payment.py::test_validate_card_invalid_exp": [
+      "payment.validate_card"
+    ],
+    "sample_project/tests/test_payment.py::test_validate_card_invalid_cvv": [
+      "payment.validate_card"
+    ],
+    "sample_project/tests/test_payment.py::test_check_fraud_risk_normal": [
+      "payment.check_fraud_risk"
+    ],
+    "sample_project/tests/test_payment.py::test_check_fraud_risk_high_amount": [
+      "payment.check_fraud_risk"
+    ],
+    "sample_project/tests/test_payment.py::test_process_charge_success": [
+      "payment.process_charge",
+      "payment.validate_card",
+      "utils.hash_string",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_payment.py::test_issue_refund_success_and_fail": [
+      "payment.issue_refund",
+      "utils.hash_string",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_pricing.py::test_get_base_price_valid_items": [
+      "pricing.get_base_price"
+    ],
+    "sample_project/tests/test_pricing.py::test_get_base_price_invalid_item": [
+      "pricing.get_base_price"
+    ],
+    "sample_project/tests/test_pricing.py::test_calculate_bulk_price_small_qty": [
+      "pricing.calculate_bulk_price",
+      "pricing.get_base_price",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_10": [
+      "pricing.calculate_bulk_price",
+      "pricing.get_base_price",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_20": [
+      "pricing.calculate_bulk_price",
+      "pricing.get_base_price",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_50": [
+      "pricing.calculate_bulk_price",
+      "pricing.get_base_price",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_pricing.py::test_apply_markup_fraction": [
+      "pricing.apply_markup",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_pricing.py::test_apply_markup_percentage": [
+      "pricing.apply_markup",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_shipping.py::test_calculate_shipping_weight_single": [
+      "shipping.calculate_shipping_weight",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_shipping.py::test_calculate_shipping_weight_multiple": [
+      "shipping.calculate_shipping_weight",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_shipping.py::test_get_shipping_tier_express": [
+      "shipping.get_shipping_tier"
+    ],
+    "sample_project/tests/test_shipping.py::test_get_shipping_tier_by_weight": [
+      "shipping.get_shipping_tier"
+    ],
+    "sample_project/tests/test_shipping.py::test_estimate_delivery_days_standard": [
+      "shipping.estimate_delivery_days"
+    ],
+    "sample_project/tests/test_shipping.py::test_estimate_delivery_days_express": [
+      "shipping.estimate_delivery_days"
+    ],
+    "sample_project/tests/test_shipping.py::test_calculate_shipping_cost_domestic_light": [
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_shipping.py::test_calculate_shipping_cost_international": [
+      "shipping.calculate_shipping_cost",
+      "shipping.calculate_shipping_weight",
+      "shipping.get_shipping_tier",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_tax.py::test_get_tax_rate_regions": [
+      "tax.get_tax_rate"
+    ],
+    "sample_project/tests/test_tax.py::test_get_tax_rate_default_and_case": [
+      "tax.get_tax_rate"
+    ],
+    "sample_project/tests/test_tax.py::test_calculate_sales_tax_ca": [
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_tax.py::test_calculate_sales_tax_zero_or_negative": [
+      "tax.calculate_sales_tax"
+    ],
+    "sample_project/tests/test_tax.py::test_calculate_sales_tax_eu": [
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_tax.py::test_calculate_sales_tax_fractional": [
+      "tax.calculate_sales_tax",
+      "tax.get_tax_rate",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_tax.py::test_apply_tax_exemptions_exempt": [
+      "tax.apply_tax_exemptions"
+    ],
+    "sample_project/tests/test_tax.py::test_apply_tax_exemptions_not_exempt": [
+      "tax.apply_tax_exemptions",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_user.py::test_get_user_profile_exists": [
+      "user.calculate_loyalty_tier",
+      "user.get_user_profile"
+    ],
+    "sample_project/tests/test_user.py::test_get_user_profile_missing": [
+      "user.get_user_profile"
+    ],
+    "sample_project/tests/test_user.py::test_calculate_loyalty_tier_platinum": [
+      "user.calculate_loyalty_tier"
+    ],
+    "sample_project/tests/test_user.py::test_calculate_loyalty_tier_gold": [
+      "user.calculate_loyalty_tier"
+    ],
+    "sample_project/tests/test_user.py::test_calculate_loyalty_tier_silver_bronze": [
+      "user.calculate_loyalty_tier"
+    ],
+    "sample_project/tests/test_user.py::test_can_apply_vip_discount": [
+      "user.calculate_loyalty_tier",
+      "user.can_apply_vip_discount",
+      "user.get_user_profile"
+    ],
+    "sample_project/tests/test_utils.py::test_round_currency_standard": [
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_utils.py::test_round_currency_integer": [
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_utils.py::test_round_currency_half_up": [
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_utils.py::test_clamp_within_bounds": [
+      "utils.clamp"
+    ],
+    "sample_project/tests/test_utils.py::test_clamp_below_low": [
+      "utils.clamp"
+    ],
+    "sample_project/tests/test_utils.py::test_clamp_above_high": [
+      "utils.clamp"
+    ],
+    "sample_project/tests/test_utils.py::test_hash_string_deterministic": [
+      "utils.hash_string"
+    ],
+    "sample_project/tests/test_utils.py::test_format_currency_usd_and_eur": [
+      "utils.format_currency",
+      "utils.round_currency"
+    ],
+    "sample_project/tests/test_validators.py::test_validate_email_valid": [
+      "validators.validate_email"
+    ],
+    "sample_project/tests/test_validators.py::test_validate_email_invalid": [
+      "validators.validate_email"
+    ],
+    "sample_project/tests/test_validators.py::test_validate_sku_valid": [
+      "validators.validate_sku"
+    ],
+    "sample_project/tests/test_validators.py::test_validate_sku_invalid": [
+      "validators.validate_sku"
+    ],
+    "sample_project/tests/test_validators.py::test_validate_quantity_valid": [
+      "validators.validate_quantity"
+    ],
+    "sample_project/tests/test_validators.py::test_validate_quantity_invalid": [
+      "validators.validate_quantity"
+    ],
+    "sample_project/tests/test_validators.py::test_validate_order_valid_structure": [
+      "order.check_limits",
+      "validators.validate_order",
+      "validators.validate_quantity",
+      "validators.validate_sku"
+    ],
+    "sample_project/tests/test_validators.py::test_validate_order_empty_or_invalid": [
+      "validators.validate_order",
+      "validators.validate_sku"
+    ]
+  },
+  "functionToTests": {
+    "auth.hash_password": [
+      "sample_project/tests/test_auth.py::test_hash_password_success",
+      "sample_project/tests/test_auth.py::test_hash_password_too_short"
+    ],
+    "auth.verify_token": [
+      "sample_project/tests/test_auth.py::test_verify_token_invalid",
+      "sample_project/tests/test_auth.py::test_verify_token_user"
+    ],
+    "auth.check_permission": [
+      "sample_project/tests/test_auth.py::test_check_permission_admin",
+      "sample_project/tests/test_auth.py::test_check_permission_user"
+    ],
+    "cart.add_item": [
+      "sample_project/tests/test_cart.py::test_add_item_existing",
+      "sample_project/tests/test_cart.py::test_add_item_invalid_quantity",
+      "sample_project/tests/test_cart.py::test_add_item_new",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_checkout_with_tiered_discounts_and_tax",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_coupon_application_and_total",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_item_addition_and_subtotal_consistency",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_item_update_edge_cases",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_removal_and_recalculation"
+    ],
+    "cart.remove_item": [
+      "sample_project/tests/test_cart.py::test_remove_item",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_removal_and_recalculation"
+    ],
+    "cart.apply_coupon": [
+      "sample_project/tests/test_cart.py::test_apply_coupon_invalid",
+      "sample_project/tests/test_cart.py::test_apply_coupon_valid",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_coupon_application_and_total",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_with_zero_tax_region_and_coupon"
+    ],
+    "cart.calculate_subtotal": [
+      "sample_project/tests/test_cart.py::test_calculate_subtotal",
+      "sample_project/tests/test_cart.py::test_calculate_total_basic",
+      "sample_project/tests/test_cart.py::test_calculate_total_empty",
+      "sample_project/tests/test_cart.py::test_calculate_total_with_coupon",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_checkout_with_tiered_discounts_and_tax",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_coupon_application_and_total",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_grand_total_incorporating_shipping",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_item_addition_and_subtotal_consistency",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_item_update_edge_cases",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_removal_and_recalculation",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_with_zero_tax_region_and_coupon",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_standard",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_with_express_shipping"
+    ],
+    "cart.calculate_total": [
+      "sample_project/tests/test_cart.py::test_calculate_total_basic",
+      "sample_project/tests/test_cart.py::test_calculate_total_empty",
+      "sample_project/tests/test_cart.py::test_calculate_total_with_coupon",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_checkout_with_tiered_discounts_and_tax",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_coupon_application_and_total",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_grand_total_incorporating_shipping",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_with_zero_tax_region_and_coupon",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_standard",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_with_express_shipping"
+    ],
+    "discount.validate_coupon": [
+      "sample_project/tests/test_cart.py::test_apply_coupon_invalid",
+      "sample_project/tests/test_cart.py::test_apply_coupon_valid",
+      "sample_project/tests/test_cart.py::test_calculate_total_basic",
+      "sample_project/tests/test_cart.py::test_calculate_total_with_coupon",
+      "sample_project/tests/test_discount.py::test_compute_final_discount_clamped_to_70_pct",
+      "sample_project/tests/test_discount.py::test_compute_final_discount_coupon_min_spend_not_met",
+      "sample_project/tests/test_discount.py::test_compute_final_discount_with_coupon",
+      "sample_project/tests/test_discount.py::test_validate_coupon_invalid_or_empty",
+      "sample_project/tests/test_discount.py::test_validate_coupon_valid_flat",
+      "sample_project/tests/test_discount.py::test_validate_coupon_valid_pct",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_checkout_with_tiered_discounts_and_tax",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_coupon_application_and_total",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_grand_total_incorporating_shipping",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_with_zero_tax_region_and_coupon",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_standard",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_with_express_shipping",
+      "sample_project/tests/test_integration_pricing_discount.py::test_discount_does_not_exceed_cap",
+      "sample_project/tests/test_integration_pricing_discount.py::test_holiday_sale_pricing_flow",
+      "sample_project/tests/test_integration_pricing_discount.py::test_invalid_coupon_fallback",
+      "sample_project/tests/test_integration_pricing_discount.py::test_vip_user_discount_qualification"
+    ],
+    "discount.calculate_bundle_discount": [
+      "sample_project/tests/test_cart.py::test_calculate_total_basic",
+      "sample_project/tests/test_cart.py::test_calculate_total_with_coupon",
+      "sample_project/tests/test_discount.py::test_calculate_bundle_discount_tiers",
+      "sample_project/tests/test_discount.py::test_compute_final_discount_clamped_to_70_pct",
+      "sample_project/tests/test_discount.py::test_compute_final_discount_coupon_min_spend_not_met",
+      "sample_project/tests/test_discount.py::test_compute_final_discount_with_coupon",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_checkout_with_tiered_discounts_and_tax",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_coupon_application_and_total",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_grand_total_incorporating_shipping",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_with_zero_tax_region_and_coupon",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_standard",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_with_express_shipping",
+      "sample_project/tests/test_integration_pricing_discount.py::test_discount_does_not_exceed_cap",
+      "sample_project/tests/test_integration_pricing_discount.py::test_holiday_sale_pricing_flow",
+      "sample_project/tests/test_integration_pricing_discount.py::test_invalid_coupon_fallback",
+      "sample_project/tests/test_integration_pricing_discount.py::test_markup_plus_tiered_discount",
+      "sample_project/tests/test_integration_pricing_discount.py::test_vip_user_discount_qualification"
+    ],
+    "discount.apply_seasonal_discount": [
+      "sample_project/tests/test_cart.py::test_calculate_total_basic",
+      "sample_project/tests/test_cart.py::test_calculate_total_with_coupon",
+      "sample_project/tests/test_discount.py::test_apply_seasonal_discount_holiday",
+      "sample_project/tests/test_discount.py::test_apply_seasonal_discount_other_months",
+      "sample_project/tests/test_discount.py::test_apply_seasonal_discount_summer",
+      "sample_project/tests/test_discount.py::test_compute_final_discount_clamped_to_70_pct",
+      "sample_project/tests/test_discount.py::test_compute_final_discount_coupon_min_spend_not_met",
+      "sample_project/tests/test_discount.py::test_compute_final_discount_with_coupon",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_checkout_with_tiered_discounts_and_tax",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_coupon_application_and_total",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_grand_total_incorporating_shipping",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_with_zero_tax_region_and_coupon",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_standard",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_with_express_shipping",
+      "sample_project/tests/test_integration_pricing_discount.py::test_discount_does_not_exceed_cap",
+      "sample_project/tests/test_integration_pricing_discount.py::test_holiday_sale_pricing_flow",
+      "sample_project/tests/test_integration_pricing_discount.py::test_invalid_coupon_fallback",
+      "sample_project/tests/test_integration_pricing_discount.py::test_vip_user_discount_qualification"
+    ],
+    "discount.compute_final_discount": [
+      "sample_project/tests/test_cart.py::test_calculate_total_basic",
+      "sample_project/tests/test_cart.py::test_calculate_total_empty",
+      "sample_project/tests/test_cart.py::test_calculate_total_with_coupon",
+      "sample_project/tests/test_discount.py::test_compute_final_discount_clamped_to_70_pct",
+      "sample_project/tests/test_discount.py::test_compute_final_discount_coupon_min_spend_not_met",
+      "sample_project/tests/test_discount.py::test_compute_final_discount_with_coupon",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_checkout_with_tiered_discounts_and_tax",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_coupon_application_and_total",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_grand_total_incorporating_shipping",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_with_zero_tax_region_and_coupon",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_standard",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_with_express_shipping",
+      "sample_project/tests/test_integration_pricing_discount.py::test_discount_does_not_exceed_cap",
+      "sample_project/tests/test_integration_pricing_discount.py::test_discount_on_zero_subtotal",
+      "sample_project/tests/test_integration_pricing_discount.py::test_holiday_sale_pricing_flow",
+      "sample_project/tests/test_integration_pricing_discount.py::test_invalid_coupon_fallback",
+      "sample_project/tests/test_integration_pricing_discount.py::test_vip_user_discount_qualification"
+    ],
+    "inventory.check_stock": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_cart_checkout.py::test_inventory_check_matches_cart_items",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_validate_and_reserve_insufficient",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_validate_and_reserve_success",
+      "sample_project/tests/test_inventory.py::test_check_stock_available",
+      "sample_project/tests/test_inventory.py::test_check_stock_insufficient",
+      "sample_project/tests/test_inventory.py::test_check_stock_zero_or_negative",
+      "sample_project/tests/test_inventory.py::test_reserve_stock_failure",
+      "sample_project/tests/test_inventory.py::test_reserve_stock_success_and_release"
+    ],
+    "inventory.reserve_stock": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_validate_and_reserve_success",
+      "sample_project/tests/test_inventory.py::test_reserve_stock_failure",
+      "sample_project/tests/test_inventory.py::test_reserve_stock_success_and_release"
+    ],
+    "inventory.release_stock": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_inventory.py::test_release_stock_zero",
+      "sample_project/tests/test_inventory.py::test_reserve_stock_success_and_release"
+    ],
+    "inventory.reorder_threshold_reached": [
+      "sample_project/tests/test_inventory.py::test_reorder_threshold_not_reached",
+      "sample_project/tests/test_inventory.py::test_reorder_threshold_reached"
+    ],
+    "notification.format_order_email": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_notification.py::test_format_order_email"
+    ],
+    "notification.send_email": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_notification.py::test_send_email_invalid",
+      "sample_project/tests/test_notification.py::test_send_email_valid"
+    ],
+    "notification.send_sms": [
+      "sample_project/tests/test_notification.py::test_send_sms_invalid",
+      "sample_project/tests/test_notification.py::test_send_sms_valid"
+    ],
+    "notification.log_audit_event": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_audit_logging_integration",
+      "sample_project/tests/test_notification.py::test_log_audit_event",
+      "sample_project/tests/test_notification.py::test_send_email_valid",
+      "sample_project/tests/test_notification.py::test_send_sms_valid"
+    ],
+    "order.check_limits": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_circular_dependency_validators_and_order",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_order_limits_validation_excess",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_order_limits_validation_success",
+      "sample_project/tests/test_validators.py::test_validate_order_valid_structure"
+    ],
+    "order.calculate_order_totals": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_standard",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_with_express_shipping"
+    ],
+    "order.validate_and_reserve": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_validate_and_reserve_insufficient",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_validate_and_reserve_success"
+    ],
+    "order.place_order": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_empty_cart_error",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow"
+    ],
+    "order.cancel_order": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_cancel_order_nonexistent"
+    ],
+    "payment.validate_card": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_payment.py::test_process_charge_success",
+      "sample_project/tests/test_payment.py::test_validate_card_invalid_cvv",
+      "sample_project/tests/test_payment.py::test_validate_card_invalid_exp",
+      "sample_project/tests/test_payment.py::test_validate_card_invalid_number",
+      "sample_project/tests/test_payment.py::test_validate_card_valid"
+    ],
+    "payment.check_fraud_risk": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_fraud_check_integration",
+      "sample_project/tests/test_payment.py::test_check_fraud_risk_high_amount",
+      "sample_project/tests/test_payment.py::test_check_fraud_risk_normal"
+    ],
+    "payment.process_charge": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_payment.py::test_process_charge_success"
+    ],
+    "payment.issue_refund": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_payment.py::test_issue_refund_success_and_fail"
+    ],
+    "pricing.get_base_price": [
+      "sample_project/tests/test_cart.py::test_calculate_subtotal",
+      "sample_project/tests/test_cart.py::test_calculate_total_basic",
+      "sample_project/tests/test_cart.py::test_calculate_total_with_coupon",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_checkout_with_tiered_discounts_and_tax",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_coupon_application_and_total",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_grand_total_incorporating_shipping",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_item_addition_and_subtotal_consistency",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_item_update_edge_cases",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_removal_and_recalculation",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_with_zero_tax_region_and_coupon",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_standard",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_with_express_shipping",
+      "sample_project/tests/test_integration_pricing_discount.py::test_multiple_sku_bulk_pricing",
+      "sample_project/tests/test_integration_pricing_discount.py::test_pricing_and_currency_formatting",
+      "sample_project/tests/test_integration_pricing_discount.py::test_wholesale_pricing_bulk_break_computation",
+      "sample_project/tests/test_pricing.py::test_calculate_bulk_price_small_qty",
+      "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_10",
+      "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_20",
+      "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_50",
+      "sample_project/tests/test_pricing.py::test_get_base_price_invalid_item",
+      "sample_project/tests/test_pricing.py::test_get_base_price_valid_items"
+    ],
+    "pricing.calculate_bulk_price": [
+      "sample_project/tests/test_integration_pricing_discount.py::test_multiple_sku_bulk_pricing",
+      "sample_project/tests/test_integration_pricing_discount.py::test_wholesale_pricing_bulk_break_computation",
+      "sample_project/tests/test_pricing.py::test_calculate_bulk_price_small_qty",
+      "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_10",
+      "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_20",
+      "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_50"
+    ],
+    "pricing.apply_markup": [
+      "sample_project/tests/test_integration_pricing_discount.py::test_markup_plus_tiered_discount",
+      "sample_project/tests/test_pricing.py::test_apply_markup_fraction",
+      "sample_project/tests/test_pricing.py::test_apply_markup_percentage"
+    ],
+    "report.generate_sales_summary": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_profit_margin_reporting",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_sales_report_aggregation"
+    ],
+    "report.calculate_margin_report": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_profit_margin_reporting"
+    ],
+    "report.export_tax_ledger": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_tax_ledger_reporting"
+    ],
+    "shipping.calculate_shipping_weight": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_grand_total_incorporating_shipping",
+      "sample_project/tests/test_integration_cart_checkout.py::test_shipping_cost_estimation_for_multi_item_cart",
+      "sample_project/tests/test_integration_cart_checkout.py::test_shipping_cost_express_air",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_standard",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_with_express_shipping",
+      "sample_project/tests/test_shipping.py::test_calculate_shipping_cost_domestic_light",
+      "sample_project/tests/test_shipping.py::test_calculate_shipping_cost_international",
+      "sample_project/tests/test_shipping.py::test_calculate_shipping_weight_multiple",
+      "sample_project/tests/test_shipping.py::test_calculate_shipping_weight_single"
+    ],
+    "shipping.get_shipping_tier": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_grand_total_incorporating_shipping",
+      "sample_project/tests/test_integration_cart_checkout.py::test_shipping_cost_estimation_for_multi_item_cart",
+      "sample_project/tests/test_integration_cart_checkout.py::test_shipping_cost_express_air",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_standard",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_with_express_shipping",
+      "sample_project/tests/test_shipping.py::test_calculate_shipping_cost_domestic_light",
+      "sample_project/tests/test_shipping.py::test_calculate_shipping_cost_international",
+      "sample_project/tests/test_shipping.py::test_get_shipping_tier_by_weight",
+      "sample_project/tests/test_shipping.py::test_get_shipping_tier_express"
+    ],
+    "shipping.estimate_delivery_days": [
+      "sample_project/tests/test_shipping.py::test_estimate_delivery_days_express",
+      "sample_project/tests/test_shipping.py::test_estimate_delivery_days_standard"
+    ],
+    "shipping.calculate_shipping_cost": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_grand_total_incorporating_shipping",
+      "sample_project/tests/test_integration_cart_checkout.py::test_shipping_cost_estimation_for_multi_item_cart",
+      "sample_project/tests/test_integration_cart_checkout.py::test_shipping_cost_express_air",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_standard",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_with_express_shipping",
+      "sample_project/tests/test_shipping.py::test_calculate_shipping_cost_domestic_light",
+      "sample_project/tests/test_shipping.py::test_calculate_shipping_cost_international"
+    ],
+    "tax.get_tax_rate": [
+      "sample_project/tests/test_cart.py::test_calculate_total_basic",
+      "sample_project/tests/test_cart.py::test_calculate_total_with_coupon",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_tax_ledger_reporting",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_checkout_with_tiered_discounts_and_tax",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_coupon_application_and_total",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_grand_total_incorporating_shipping",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_with_zero_tax_region_and_coupon",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_standard",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_with_express_shipping",
+      "sample_project/tests/test_tax.py::test_calculate_sales_tax_ca",
+      "sample_project/tests/test_tax.py::test_calculate_sales_tax_eu",
+      "sample_project/tests/test_tax.py::test_calculate_sales_tax_fractional",
+      "sample_project/tests/test_tax.py::test_get_tax_rate_default_and_case",
+      "sample_project/tests/test_tax.py::test_get_tax_rate_regions"
+    ],
+    "tax.calculate_sales_tax": [
+      "sample_project/tests/test_cart.py::test_calculate_total_basic",
+      "sample_project/tests/test_cart.py::test_calculate_total_empty",
+      "sample_project/tests/test_cart.py::test_calculate_total_with_coupon",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_checkout_with_tiered_discounts_and_tax",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_coupon_application_and_total",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_grand_total_incorporating_shipping",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_with_zero_tax_region_and_coupon",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_standard",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_with_express_shipping",
+      "sample_project/tests/test_tax.py::test_calculate_sales_tax_ca",
+      "sample_project/tests/test_tax.py::test_calculate_sales_tax_eu",
+      "sample_project/tests/test_tax.py::test_calculate_sales_tax_fractional",
+      "sample_project/tests/test_tax.py::test_calculate_sales_tax_zero_or_negative"
+    ],
+    "tax.apply_tax_exemptions": [
+      "sample_project/tests/test_tax.py::test_apply_tax_exemptions_exempt",
+      "sample_project/tests/test_tax.py::test_apply_tax_exemptions_not_exempt"
+    ],
+    "user.get_user_profile": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_pricing_discount.py::test_normal_user_vip_coupon_rejection",
+      "sample_project/tests/test_integration_pricing_discount.py::test_vip_user_discount_qualification",
+      "sample_project/tests/test_user.py::test_can_apply_vip_discount",
+      "sample_project/tests/test_user.py::test_get_user_profile_exists",
+      "sample_project/tests/test_user.py::test_get_user_profile_missing"
+    ],
+    "user.calculate_loyalty_tier": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_pricing_discount.py::test_normal_user_vip_coupon_rejection",
+      "sample_project/tests/test_integration_pricing_discount.py::test_vip_user_discount_qualification",
+      "sample_project/tests/test_user.py::test_calculate_loyalty_tier_gold",
+      "sample_project/tests/test_user.py::test_calculate_loyalty_tier_platinum",
+      "sample_project/tests/test_user.py::test_calculate_loyalty_tier_silver_bronze",
+      "sample_project/tests/test_user.py::test_can_apply_vip_discount",
+      "sample_project/tests/test_user.py::test_get_user_profile_exists"
+    ],
+    "user.can_apply_vip_discount": [
+      "sample_project/tests/test_integration_pricing_discount.py::test_normal_user_vip_coupon_rejection",
+      "sample_project/tests/test_integration_pricing_discount.py::test_vip_user_discount_qualification",
+      "sample_project/tests/test_user.py::test_can_apply_vip_discount"
+    ],
+    "utils.round_currency": [
+      "sample_project/tests/test_cart.py::test_calculate_subtotal",
+      "sample_project/tests/test_cart.py::test_calculate_total_basic",
+      "sample_project/tests/test_cart.py::test_calculate_total_empty",
+      "sample_project/tests/test_cart.py::test_calculate_total_with_coupon",
+      "sample_project/tests/test_discount.py::test_apply_seasonal_discount_holiday",
+      "sample_project/tests/test_discount.py::test_apply_seasonal_discount_summer",
+      "sample_project/tests/test_discount.py::test_calculate_bundle_discount_tiers",
+      "sample_project/tests/test_discount.py::test_compute_final_discount_clamped_to_70_pct",
+      "sample_project/tests/test_discount.py::test_compute_final_discount_coupon_min_spend_not_met",
+      "sample_project/tests/test_discount.py::test_compute_final_discount_with_coupon",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_profit_margin_reporting",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_sales_report_aggregation",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_tax_ledger_reporting",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_checkout_with_tiered_discounts_and_tax",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_coupon_application_and_total",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_grand_total_incorporating_shipping",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_item_addition_and_subtotal_consistency",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_item_update_edge_cases",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_removal_and_recalculation",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_with_zero_tax_region_and_coupon",
+      "sample_project/tests/test_integration_cart_checkout.py::test_shipping_cost_estimation_for_multi_item_cart",
+      "sample_project/tests/test_integration_cart_checkout.py::test_shipping_cost_express_air",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_standard",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_with_express_shipping",
+      "sample_project/tests/test_integration_pricing_discount.py::test_discount_does_not_exceed_cap",
+      "sample_project/tests/test_integration_pricing_discount.py::test_holiday_sale_pricing_flow",
+      "sample_project/tests/test_integration_pricing_discount.py::test_invalid_coupon_fallback",
+      "sample_project/tests/test_integration_pricing_discount.py::test_markup_plus_tiered_discount",
+      "sample_project/tests/test_integration_pricing_discount.py::test_multiple_sku_bulk_pricing",
+      "sample_project/tests/test_integration_pricing_discount.py::test_pricing_and_currency_formatting",
+      "sample_project/tests/test_integration_pricing_discount.py::test_vip_user_discount_qualification",
+      "sample_project/tests/test_integration_pricing_discount.py::test_wholesale_pricing_bulk_break_computation",
+      "sample_project/tests/test_notification.py::test_format_order_email",
+      "sample_project/tests/test_payment.py::test_issue_refund_success_and_fail",
+      "sample_project/tests/test_payment.py::test_process_charge_success",
+      "sample_project/tests/test_pricing.py::test_apply_markup_fraction",
+      "sample_project/tests/test_pricing.py::test_apply_markup_percentage",
+      "sample_project/tests/test_pricing.py::test_calculate_bulk_price_small_qty",
+      "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_10",
+      "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_20",
+      "sample_project/tests/test_pricing.py::test_calculate_bulk_price_tier_50",
+      "sample_project/tests/test_shipping.py::test_calculate_shipping_cost_domestic_light",
+      "sample_project/tests/test_shipping.py::test_calculate_shipping_cost_international",
+      "sample_project/tests/test_shipping.py::test_calculate_shipping_weight_multiple",
+      "sample_project/tests/test_shipping.py::test_calculate_shipping_weight_single",
+      "sample_project/tests/test_tax.py::test_apply_tax_exemptions_not_exempt",
+      "sample_project/tests/test_tax.py::test_calculate_sales_tax_ca",
+      "sample_project/tests/test_tax.py::test_calculate_sales_tax_eu",
+      "sample_project/tests/test_tax.py::test_calculate_sales_tax_fractional",
+      "sample_project/tests/test_utils.py::test_format_currency_usd_and_eur",
+      "sample_project/tests/test_utils.py::test_round_currency_half_up",
+      "sample_project/tests/test_utils.py::test_round_currency_integer",
+      "sample_project/tests/test_utils.py::test_round_currency_standard"
+    ],
+    "utils.clamp": [
+      "sample_project/tests/test_cart.py::test_calculate_total_basic",
+      "sample_project/tests/test_cart.py::test_calculate_total_with_coupon",
+      "sample_project/tests/test_discount.py::test_compute_final_discount_clamped_to_70_pct",
+      "sample_project/tests/test_discount.py::test_compute_final_discount_coupon_min_spend_not_met",
+      "sample_project/tests/test_discount.py::test_compute_final_discount_with_coupon",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_checkout_with_tiered_discounts_and_tax",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_coupon_application_and_total",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_grand_total_incorporating_shipping",
+      "sample_project/tests/test_integration_cart_checkout.py::test_cart_with_zero_tax_region_and_coupon",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_standard",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_calculate_order_totals_with_express_shipping",
+      "sample_project/tests/test_integration_pricing_discount.py::test_discount_does_not_exceed_cap",
+      "sample_project/tests/test_integration_pricing_discount.py::test_holiday_sale_pricing_flow",
+      "sample_project/tests/test_integration_pricing_discount.py::test_invalid_coupon_fallback",
+      "sample_project/tests/test_integration_pricing_discount.py::test_vip_user_discount_qualification",
+      "sample_project/tests/test_utils.py::test_clamp_above_high",
+      "sample_project/tests/test_utils.py::test_clamp_below_low",
+      "sample_project/tests/test_utils.py::test_clamp_within_bounds"
+    ],
+    "utils.hash_string": [
+      "sample_project/tests/test_auth.py::test_hash_password_success",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_payment.py::test_issue_refund_success_and_fail",
+      "sample_project/tests/test_payment.py::test_process_charge_success",
+      "sample_project/tests/test_utils.py::test_hash_string_deterministic"
+    ],
+    "utils.format_currency": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_pricing_discount.py::test_pricing_and_currency_formatting",
+      "sample_project/tests/test_notification.py::test_format_order_email",
+      "sample_project/tests/test_utils.py::test_format_currency_usd_and_eur"
+    ],
+    "validators.validate_email": [
+      "sample_project/tests/test_validators.py::test_validate_email_invalid",
+      "sample_project/tests/test_validators.py::test_validate_email_valid"
+    ],
+    "validators.validate_sku": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_circular_dependency_validators_and_order",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_order_limits_validation_success",
+      "sample_project/tests/test_validators.py::test_validate_order_empty_or_invalid",
+      "sample_project/tests/test_validators.py::test_validate_order_valid_structure",
+      "sample_project/tests/test_validators.py::test_validate_sku_invalid",
+      "sample_project/tests/test_validators.py::test_validate_sku_valid"
+    ],
+    "validators.validate_quantity": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_circular_dependency_validators_and_order",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_order_limits_validation_success",
+      "sample_project/tests/test_validators.py::test_validate_order_valid_structure",
+      "sample_project/tests/test_validators.py::test_validate_quantity_invalid",
+      "sample_project/tests/test_validators.py::test_validate_quantity_valid"
+    ],
+    "validators.validate_order": [
+      "sample_project/tests/test_e2e_orders.py::test_e2e_checkout_with_vip_discount",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_complete_successful_checkout_flow",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_express_shipping_cost_impact",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_fraud_detection_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_insufficient_stock_rollback",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_international_order_checkout",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_invalid_payment_card_rejection",
+      "sample_project/tests/test_e2e_orders.py::test_e2e_order_cancellation_flow",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_circular_dependency_validators_and_order",
+      "sample_project/tests/test_integration_order_lifecycle.py::test_order_limits_validation_success",
+      "sample_project/tests/test_validators.py::test_validate_order_empty_or_invalid",
+      "sample_project/tests/test_validators.py::test_validate_order_valid_structure"
+    ]
+  }
+}
